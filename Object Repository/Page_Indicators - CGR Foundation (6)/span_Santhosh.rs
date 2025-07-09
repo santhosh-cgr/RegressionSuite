@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Santhosh</name>
+   <tag></tag>
+   <elementGuidId>4883c417-1632-43ae-8d3d-9025e4ceb829</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='user-menu']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#user-menu > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;User&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>21da32e7-6580-4cce-9e14-1d01ff8c6b25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Santhosh
+
+</value>
+      <webElementGuid>b9ed0fea-f7d9-4abe-8ca6-c98ec54290e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;user-menu&quot;)/span[1]</value>
+      <webElementGuid>8d57a862-5b23-4c32-a8e9-e05b62f05517</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='user-menu']/span</value>
+      <webElementGuid>3628647c-5497-43f8-812a-541d7ddb08ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Risk Assessment Hazards'])[1]/following::span[2]</value>
+      <webElementGuid>218016c3-faa3-4967-a823-2df56e25f13b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Objectives'])[2]/following::span[2]</value>
+      <webElementGuid>dd6169fe-82b3-4fb0-ac14-99f70540cb7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin'])[1]/preceding::span[2]</value>
+      <webElementGuid>55b012a5-9393-47b4-9353-1b08d3e3628a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/preceding::span[2]</value>
+      <webElementGuid>4cdb77f6-8d7b-4ba6-aa0b-db7dc755a72a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Santhosh']/parent::*</value>
+      <webElementGuid>526e23f4-5c4e-48c3-bf85-d07cfe274000</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a/span</value>
+      <webElementGuid>aa42c5c1-dfce-409b-bf32-bc961c153055</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+Santhosh
+
+' or . = '
+Santhosh
+
+')]</value>
+      <webElementGuid>a9c31205-a210-4013-a46d-b59a3ef033e3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

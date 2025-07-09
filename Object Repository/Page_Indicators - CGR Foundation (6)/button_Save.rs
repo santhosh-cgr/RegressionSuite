@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Save</name>
+   <tag></tag>
+   <elementGuidId>86598ba3-c095-434a-ac96-e8f8f6e4db08</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[24]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.modal-footer > div:nth-of-type(2) > button.btn.btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Save&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>853fcef9-f44b-495f-ab40-9cc3bdc826ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>81f784f5-c702-4982-96e5-ae344201935c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8f2d92ee-97c3-44bc-84c2-78503f5df883</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>8546cb4b-1cda-4115-bf49-ac994bd42d73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-ModalDiv&quot;)/div[@class=&quot;modal modal-flex fade in&quot;]/div[@class=&quot;modal-dialog modal-xl&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/div[2]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>5acaa9e8-7f14-4aa4-b67c-0e2e62c64930</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[24]</value>
+      <webElementGuid>b6265bbf-3136-483e-a0c7-54f294ce58d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='js-ModalDiv']/div/div/div/div[3]/div[2]/button[2]</value>
+      <webElementGuid>407e0db9-9528-4c95-b2a6-4ae819314c8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[2]/following::button[1]</value>
+      <webElementGuid>21ec141f-8316-46d5-9342-907aec6d7017</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Input'])[1]/following::button[2]</value>
+      <webElementGuid>adaf3912-1b94-482d-97b0-5e92256c6a39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button[2]</value>
+      <webElementGuid>65c1f6cf-b069-43b4-ba29-953c6d8812d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>399b6d85-039c-41ad-a8d6-f548d390bf99</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

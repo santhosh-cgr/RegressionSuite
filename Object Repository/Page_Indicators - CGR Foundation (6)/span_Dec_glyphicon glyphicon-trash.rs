@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Dec_glyphicon glyphicon-trash</name>
+   <tag></tag>
+   <elementGuidId>d30df79d-52e5-46b8-900a-92c297245106</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='js-ModalDiv']/div/div/div/div[2]/div/div[15]/div/ul/li[2]/table/tbody/tr/td[2]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.glyphicon.glyphicon-trash</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[title=&quot;Clear selection&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7e6faaab-e885-4047-9539-9b95714e365c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>glyphicon glyphicon-trash</value>
+      <webElementGuid>4f4ad75c-065b-42a1-8542-245d4521b458</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-ModalDiv&quot;)/div[@class=&quot;modal modal-flex fade in&quot;]/div[@class=&quot;modal-dialog modal-xl&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[1]/div[@class=&quot;form-group&quot;]/div[@class=&quot;bootstrap-datetimepicker-widget dropdown-menu usetwentyfour bottom&quot;]/ul[@class=&quot;list-unstyled&quot;]/li[@class=&quot;picker-switch accordion-toggle&quot;]/table[@class=&quot;table-condensed&quot;]/tbody[1]/tr[1]/td[2]/a[1]/span[@class=&quot;glyphicon glyphicon-trash&quot;]</value>
+      <webElementGuid>7d562200-7595-4ad9-83dc-cf3a128ad7ef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='js-ModalDiv']/div/div/div/div[2]/div/div[15]/div/ul/li[2]/table/tbody/tr/td[2]/a/span</value>
+      <webElementGuid>5f8201ae-3fa9-416e-8e63-f4f9834969f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/a/span</value>
+      <webElementGuid>6ffc6fae-eec4-4fd1-8e7b-bbb9c2c3f30a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

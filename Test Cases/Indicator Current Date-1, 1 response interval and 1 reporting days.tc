@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Indicator Current Date-1, 1 response interval and 1 reporting days</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>62e7f8b2-5a31-47cd-a7b7-95e903e7ace4</testCaseGuid>
+</TestCaseEntity>

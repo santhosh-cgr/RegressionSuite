@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6f76a5e8-50ee-460d-a466-34181cd22698</webElementGuid>
+      <webElementGuid>0d08f1b8-ea77-4877-88ec-47d8ae2c7ed1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>f76c96f5-bcb7-420d-9a0a-0d9d1996a4e1</webElementGuid>
+      <webElementGuid>d5cd06d7-ecd2-48ca-bb9b-d21acc872ca1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>commit</value>
-      <webElementGuid>6a08d8bb-9fda-4b90-b6c4-dfb8a0c03eff</webElementGuid>
+      <webElementGuid>f43d9a66-a7e9-40bc-ae97-18129efd6a17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Log in</value>
-      <webElementGuid>911a0908-b7a4-4f86-ac40-8cde680a4f10</webElementGuid>
+      <webElementGuid>07cd0ea2-9767-4736-a6d3-51ba6c1b6473</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-success btn-block</value>
-      <webElementGuid>c5a21ade-1daf-4e26-b003-2bd36f38eb72</webElementGuid>
+      <webElementGuid>78015033-41cb-4bf8-9829-c54d8318f131</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>data-disable-with</name>
       <type>Main</type>
       <value>Create User</value>
-      <webElementGuid>c72b5e21-2a30-4615-a92c-0560e4747b97</webElementGuid>
+      <webElementGuid>2c7901f3-a616-4e18-b00d-45af38055b94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;new_account&quot;)/div[@class=&quot;form-group&quot;]/input[@class=&quot;btn btn-success btn-block&quot;]</value>
-      <webElementGuid>a2c9435a-95b1-4c6d-994b-8d866ab23743</webElementGuid>
+      <webElementGuid>511f1c1d-674f-47ba-a42d-79dd78edccb0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='commit']</value>
-      <webElementGuid>354426e3-410c-45b6-9c6d-9d6c700bb736</webElementGuid>
+      <webElementGuid>dea08821-31a9-4e74-bfb6-63b5ccfdafef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='new_account']/div[4]/input</value>
-      <webElementGuid>8d786e96-7b92-4d46-bfbe-443a79fffd45</webElementGuid>
+      <webElementGuid>509f2c24-45ef-483c-9d41-4776ccaf5894</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/input</value>
-      <webElementGuid>80b37061-4b25-4ffa-a69f-9cd8ba0755ab</webElementGuid>
+      <webElementGuid>f6f4d426-e991-4eda-b5d6-78284c854dda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit' and @name = 'commit']</value>
-      <webElementGuid>34dd9b03-a011-40ec-8018-2afa697a3b07</webElementGuid>
+      <webElementGuid>d6c39608-20c2-475a-b72f-56d72b274c92</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

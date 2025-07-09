@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Email address_accountemail</name>
+   <name>input_Next Report Date_due_date</name>
    <tag></tag>
-   <elementGuidId>667ac100-eb96-43a0-9d83-268aa0e56295</elementGuidId>
+   <elementGuidId>7de46944-ef42-4bd0-863f-1cf3a25226d0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='account_email']</value>
+         <value>//input[@id='due_date']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#account_email</value>
+         <value>#due_date</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Email address&quot;i</value>
+         <value>internal:label=&quot;Next Report Date&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,31 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>421ffa36-3ba4-47b8-8247-30836dd83132</webElementGuid>
+      <webElementGuid>92575dd0-99f9-49c4-9621-bc055aaae6dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>aria-describedby</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>50e06e58-88ee-4c5b-aefa-df64d5570eca</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autofocus</name>
-      <type>Main</type>
-      <value>autofocus</value>
-      <webElementGuid>5e3a5eaf-9b14-457a-ad35-2a36682665f4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>required</name>
-      <type>Main</type>
-      <value>required</value>
-      <webElementGuid>8eb9d9f3-972e-44af-84a0-69dbec3506e8</webElementGuid>
+      <value>due_date-error due_date-help</value>
+      <webElementGuid>a1212459-d4e2-4f82-b86e-1191e69e00f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,70 +45,78 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>c927dd4d-e9a7-41e8-b48b-878e11212b24</webElementGuid>
+      <webElementGuid>95e5c5b5-7b9c-4f44-ac60-0e90a5e13b57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>class</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>fa6e2538-82c0-4459-b538-1a940a00afc5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>account[email]</value>
-      <webElementGuid>f6ae2aca-6825-4380-9641-9d503f8e2c24</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>96cad1f6-6afe-451a-bb79-ffacf35cca0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>account_email</value>
-      <webElementGuid>cec5cdd8-33fc-4aa3-9557-abe0b083a5d2</webElementGuid>
+      <value>due_date</value>
+      <webElementGuid>367f80e2-cd8d-4f12-9845-9bdfb5805bb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>due_date</value>
+      <webElementGuid>e57a801b-42b5-4a26-8f4a-6ef9036ba04b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>a6fba0d4-ac1a-4d81-b7cf-a71f8edbdec7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;account_email&quot;)</value>
-      <webElementGuid>550d9a75-7da0-4035-8a10-d46434e907cd</webElementGuid>
+      <value>id(&quot;due_date&quot;)</value>
+      <webElementGuid>b0aad6c8-ed5b-4321-8544-37cf716c4ee7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='account_email']</value>
-      <webElementGuid>6967f88f-bcfb-4fb6-b4e8-3cfc8f9a1ae2</webElementGuid>
+      <value>//input[@id='due_date']</value>
+      <webElementGuid>8bd1f5ef-7330-4acf-9789-a8d112f25ad8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='new_account']/div/input</value>
-      <webElementGuid>d43cdd52-871b-4341-a98c-ce5b93ff43fa</webElementGuid>
+      <value>//div[@id='js-ModalDiv']/div/div/div/div[2]/div/div[15]/input</value>
+      <webElementGuid>7a686fc7-4a45-4280-8db2-d9e16cc14b0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/input</value>
-      <webElementGuid>b5993bd4-6a3c-4f3f-8003-36bf97d59668</webElementGuid>
+      <value>//div[15]/input</value>
+      <webElementGuid>56262261-ab38-4f2d-b998-b41b1626c819</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'email' and @name = 'account[email]' and @id = 'account_email']</value>
-      <webElementGuid>3ee7b5f0-42e7-497c-91bd-514c815b444c</webElementGuid>
+      <value>//input[@id = 'due_date' and @name = 'due_date' and @type = 'text']</value>
+      <webElementGuid>8768324c-c5d0-4b06-a3c2-63ec28f15fb5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
