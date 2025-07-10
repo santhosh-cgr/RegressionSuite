@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>//button[@aria-label='Edit']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>80bcb9c0-5332-4130-9c75-4a4f3617785d</webElementGuid>
+      <webElementGuid>9a78eb07-f555-4f53-a650-624360017fcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Edit</value>
-      <webElementGuid>b67d4b69-4538-4f94-aa42-e5a58a3c19bc</webElementGuid>
+      <webElementGuid>e364c269-a56b-4af8-96d6-923018106240</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-default</value>
-      <webElementGuid>17bc3990-92cc-426b-99d2-f885d985c91f</webElementGuid>
+      <webElementGuid>d40ae872-2827-423a-89dc-1b25e4b3b899</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>27795028-e97a-4c17-8619-782c71841967</webElementGuid>
+      <webElementGuid>dcfd05c9-dfd2-4c03-9e4d-958ebbf72538</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Edit</value>
-      <webElementGuid>1b5aa8b7-9949-4b6d-bfc0-99427e4a507f</webElementGuid>
+      <webElementGuid>01791882-c5f2-4c0a-abf9-3eb9a2469c2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;js-ReactActions&quot;)/div[@class=&quot;btn-group&quot;]/button[@class=&quot;btn btn-default&quot;]</value>
-      <webElementGuid>c84fe1f5-83fe-44f5-b490-e4e3e892f9ea</webElementGuid>
+      <webElementGuid>cfe2489d-2486-4ff7-9c83-242d067c4bff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>3b85cf1d-571c-4d1a-8b9c-cb38a9aa5772</webElementGuid>
+      <webElementGuid>d601dac3-b8a8-4a19-9a7e-3d82fd63159e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='js-ReactActions']/div/button</value>
-      <webElementGuid>74423bef-d20e-4e64-bb75-fef6901fa031</webElementGuid>
+      <webElementGuid>f0d5499e-91ac-4001-aacf-87786d628110</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Indicators'])[2]/following::button[2]</value>
-      <webElementGuid>39578d56-da32-4354-97e2-4361e9ab53aa</webElementGuid>
+      <webElementGuid>c3d4d293-00ff-422a-b74d-5333dddade37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Registers'])[2]/preceding::button[4]</value>
-      <webElementGuid>fb118f1f-9606-45d2-b669-35f7740aa127</webElementGuid>
+      <webElementGuid>81ccc79b-ee55-43f1-8978-cd32d45fee4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
-      <webElementGuid>54c53c95-5808-4314-939a-d98aa021bf3b</webElementGuid>
+      <webElementGuid>4d3bad3f-0472-4b5b-bf51-2ea91e8e7110</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//main/div[2]/div/div/button</value>
-      <webElementGuid>f506a24c-21ed-4409-b140-4192fd33f835</webElementGuid>
+      <webElementGuid>60d8a38f-5209-4290-bb2a-60e5d843ad28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Edit' or . = ' Edit')]</value>
-      <webElementGuid>5cdabd19-81e5-4d33-b303-ad24903e8d55</webElementGuid>
+      <webElementGuid>250d6881-e5d9-42fa-ae98-3061c956232e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

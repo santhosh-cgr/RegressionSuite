@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='js-MainContent']/div/div[3]/div/div[2]/div/div/div/div[2]/div</value>
+         <value>//div[@class='col-xs-3'][.//strong[contains(text(),'Next Report Date')]]/following-sibling::*/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>56b86176-1d47-4e89-a5d3-7953dd8ab0de</webElementGuid>
+      <webElementGuid>6c9fac43-f7a3-45d1-9363-c26cadb36bb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <value>
 09 July, 2025
 </value>
-      <webElementGuid>e26f9d56-83f6-4204-8837-86a37d10216b</webElementGuid>
+      <webElementGuid>c5c8a9be-c229-4694-a99e-f90ee16e5c0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;js-MainContent&quot;)/div[@class=&quot;inner-content&quot;]/div[@class=&quot;block&quot;]/div[@class=&quot;info-card&quot;]/div[@class=&quot;info-desc-wrap clearfix&quot;]/div[@class=&quot;js-CollapsibleFields&quot;]/div[@class=&quot;custom-field-wrap&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-9&quot;]/div[1]</value>
-      <webElementGuid>692a727c-2950-45ef-a7ce-eef1244eaff7</webElementGuid>
+      <webElementGuid>cd0e5395-3749-4a4b-8ba0-b2c71e3e5255</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='js-MainContent']/div/div[3]/div/div[2]/div/div/div/div[2]/div</value>
-      <webElementGuid>c2058f90-fbe9-4aec-9190-386d0b01cc4b</webElementGuid>
+      <webElementGuid>7eca1d23-6049-42b3-9a68-f141cae550e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next Report Date'])[1]/following::div[2]</value>
-      <webElementGuid>4fd8e523-3e6d-4349-b46a-7ef17b90b96b</webElementGuid>
+      <webElementGuid>cefbd45c-901e-4bb9-ad82-13d090e1c018</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID #110'])[1]/following::div[6]</value>
-      <webElementGuid>c92b32e9-3361-4c09-b98e-551540c6d1df</webElementGuid>
+      <webElementGuid>8ebd3725-2235-4403-b7bf-aa9968f9bc66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Indicator Label'])[1]/preceding::div[1]</value>
-      <webElementGuid>91dce4bd-a79c-4540-ba3a-28bdba7c0424</webElementGuid>
+      <webElementGuid>6e4243a1-52ae-40e8-80e1-9352bf0665e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Response Interval'])[1]/preceding::div[5]</value>
-      <webElementGuid>3c301658-e479-48a9-b351-f24dbf25b898</webElementGuid>
+      <webElementGuid>397a3185-5b58-490e-b1e0-f828c184eeb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div[2]/div</value>
-      <webElementGuid>de13f6c6-4663-4399-875c-233281443e26</webElementGuid>
+      <webElementGuid>b7aa5c7b-6ffe-441c-bbc9-05dfcdb6a1a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +107,6 @@
 ' or . = '
 09 July, 2025
 ')]</value>
-      <webElementGuid>50ca01d7-6eb7-43cb-85e7-4b363f0dcc8e</webElementGuid>
+      <webElementGuid>79d5f0ef-4b2e-4f5d-9f7a-d261be61cc00</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

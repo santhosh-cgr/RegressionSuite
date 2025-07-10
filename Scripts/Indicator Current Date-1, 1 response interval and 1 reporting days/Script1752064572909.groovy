@@ -16,6 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.time.LocalDate as LocalDate
+import java.time.format.DateTimeFormatter as DateTimeFormatter
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
 
@@ -35,11 +40,13 @@ WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (
 
 WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date'))
 
-WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/td_8'))
+WebUI.setText(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date'), 
+    LocalDate.now().minusDays(1).format(DateTimeFormatter.ofPattern('dd/MM/yyyy')))
 
 WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/button_Save'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/div_08 July, 2025'), '08 July, 2025')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/div_08 July, 2025'), LocalDate.now().minusDays(
+        1).format(DateTimeFormatter.ofPattern('dd MMMM, yyyy')))
 
 WebUI.navigateToUrl('https://bug-nation.cgrfoundation-staging.com/admin/jobs')
 
@@ -47,21 +54,22 @@ WebUI.click(findTestObject('Object Repository/Page_Background Jobs - CGR Foundat
 
 WebUI.navigateToUrl('https://bug-nation.cgrfoundation-staging.com/indicators/110')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/div_09 July, 2025'), '09 July, 2025')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/div_09 July, 2025'), LocalDate.now().format(
+        DateTimeFormatter.ofPattern('dd MMMM, yyyy')))
 
-WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/a_13323'))
+// Get yesterday's date (09 July, 2025)
+def yesterday = LocalDate.now().minusDays(1).format(DateTimeFormatter.ofPattern('dd MMMM, yyyy'))
+
+// Get the WebDriver instance and click
+def driver = DriverFactory.getWebDriver()
+
+def xpath = "//tr[td[4][text()='$yesterday']]/td[1]/a"
+
+def element = driver.findElement(By.xpath(xpath))
+
+element.click()
 
 WebUI.click(findTestObject('Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Edit_btn btn-default'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_D'), 'D')
-
-WebUI.setText(findTestObject('Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_De'), 'De')
-
-WebUI.setText(findTestObject('Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_Del'), 'Del')
-
-WebUI.setText(findTestObject('Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_Dele'), 'Dele')
-
-WebUI.setText(findTestObject('Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_Delet'), 'Delet')
 
 WebUI.setText(findTestObject('Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_Delete'), 'Delete')
 
@@ -79,5 +87,9 @@ WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (
 
 WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/a_Log out'))
 
+WebUI.acceptAlert()
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_CGR Foundation/div_Successfully logged out'), 'Successfully logged out.')
+
+WebUI.closeBrowser()
 

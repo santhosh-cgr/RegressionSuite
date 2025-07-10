@@ -6,6 +6,10 @@
    <elementGuidId>58bcdb7d-c25d-4a70-a76f-3af058fcf6f1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/indicator_responses/13323' and (text() = '13323' or . = '13323')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='js-IndicatorResponseSubpanel']/div/div[2]/table/tbody/tr/td/a</value>
       </entry>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1ec4b62c-d7a9-489c-99f9-38036351728b</webElementGuid>
+      <webElementGuid>01d2a135-f0a5-4b27-9e48-003f2b254ad7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/indicator_responses/13323</value>
-      <webElementGuid>2cec1cdf-959c-41bd-9f99-082d7716b9f1</webElementGuid>
+      <webElementGuid>5b57c522-1c48-433b-8f1f-483bce994ea4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>13323</value>
-      <webElementGuid>c66eea05-c125-4234-a46b-70f869d2cc34</webElementGuid>
+      <webElementGuid>989c8d3d-78cc-4d4a-a4f8-5c431489ce03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;js-IndicatorResponseSubpanel&quot;)/div[@class=&quot;panel panel-default panel-table sub expanded&quot;]/div[@class=&quot;panel-body&quot;]/table[@class=&quot;table table-sortable&quot;]/tbody[1]/tr[1]/td[1]/a[1]</value>
-      <webElementGuid>951cebc4-c352-4ed9-a0ef-27ef133b2fa1</webElementGuid>
+      <webElementGuid>413bb6f7-8638-4ca2-8d89-0b1f11b04937</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='js-IndicatorResponseSubpanel']/div/div[2]/table/tbody/tr/td/a</value>
-      <webElementGuid>100d7463-1fbe-4130-bf9b-73895375f337</webElementGuid>
+      <webElementGuid>00741e99-a7c6-4ce9-9019-c0cad470f390</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'13323')]</value>
-      <webElementGuid>46feed30-0620-4e31-b53f-7748b3664d1a</webElementGuid>
+      <webElementGuid>7845079e-bdf2-4bd9-8e40-b855b8720019</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Response'])[2]/following::a[1]</value>
-      <webElementGuid>07d07515-b0a4-4fdc-8fed-870c0c9efd66</webElementGuid>
+      <webElementGuid>4a9c32b8-b387-4e4a-ad3c-9ce75fd5a168</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No Outcome'])[1]/preceding::a[1]</value>
-      <webElementGuid>335cabe9-5555-4598-a04a-8bd3d7ef5cc5</webElementGuid>
+      <webElementGuid>843886fd-8c9b-4a6a-9a64-c919dfebf303</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No Value'])[1]/preceding::a[1]</value>
-      <webElementGuid>26b9a124-1151-4778-a67e-5d3ad9544870</webElementGuid>
+      <webElementGuid>a7096097-4783-4486-a6d6-5968f949fab4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='13323']/parent::*</value>
-      <webElementGuid>ca49d11b-f412-4220-b8f7-1208316efbeb</webElementGuid>
+      <webElementGuid>ee0a4fa3-931b-4233-b2d8-6a3ae46f27a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/indicator_responses/13323')]</value>
-      <webElementGuid>618fecba-eb4d-4dbc-9b19-09818be9a747</webElementGuid>
+      <webElementGuid>f95ca211-31e4-49d5-9c56-ddbda50ea916</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/a</value>
-      <webElementGuid>37e57fa2-3efa-447e-b630-a62b61c5f6fd</webElementGuid>
+      <webElementGuid>d5d9bd2d-3f7f-4128-b9db-73f6c399c628</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/indicator_responses/13323' and (text() = '13323' or . = '13323')]</value>
-      <webElementGuid>bae67f80-3780-46f8-8eb4-b452e465d709</webElementGuid>
+      <webElementGuid>c5843bf8-79fb-4235-82be-4a2bd8f5ca34</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
