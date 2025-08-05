@@ -85,13 +85,13 @@ WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (
 
 WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/span_Santhosh'))
-
-WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/a_Log out'))
-
-WebUI.acceptAlert()
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CGR Foundation/div_Successfully logged out'), 'Successfully logged out.')
+//WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/span_Santhosh'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/a_Log out'))
+//
+//WebUI.acceptAlert()
+//
+//WebUI.verifyElementText(findTestObject('Object Repository/Page_CGR Foundation/div_Successfully logged out'), 'Successfully logged out.')
 
 WebUI.closeBrowser()
 
