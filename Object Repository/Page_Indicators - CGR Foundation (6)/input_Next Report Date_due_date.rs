@@ -6,12 +6,12 @@
    <elementGuidId>7de46944-ef42-4bd0-863f-1cf3a25226d0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='due_date']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#due_date</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='due_date']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:label=&quot;Next Report Date&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>92575dd0-99f9-49c4-9621-bc055aaae6dd</webElementGuid>
+      <webElementGuid>e827df65-98b0-4ba9-94a7-e144d1479e10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>due_date-error due_date-help</value>
-      <webElementGuid>a1212459-d4e2-4f82-b86e-1191e69e00f5</webElementGuid>
+      <webElementGuid>4a414922-f015-4020-a302-b3a201028d27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>95e5c5b5-7b9c-4f44-ac60-0e90a5e13b57</webElementGuid>
+      <webElementGuid>dd955316-3478-41cc-b5f5-4bb1be8e3910</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>96cad1f6-6afe-451a-bb79-ffacf35cca0f</webElementGuid>
+      <webElementGuid>fb853d62-55ee-4708-a5e8-85b7ce8c2118</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>id</name>
       <type>Main</type>
       <value>due_date</value>
-      <webElementGuid>367f80e2-cd8d-4f12-9845-9bdfb5805bb7</webElementGuid>
+      <webElementGuid>51aed0f0-4273-4f18-a8ee-71825757a43b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>name</name>
       <type>Main</type>
       <value>due_date</value>
-      <webElementGuid>e57a801b-42b5-4a26-8f4a-6ef9036ba04b</webElementGuid>
+      <webElementGuid>7bcb3e2d-67b9-4198-823c-473860a476e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>a6fba0d4-ac1a-4d81-b7cf-a71f8edbdec7</webElementGuid>
+      <webElementGuid>2e2c1c75-9afa-4278-8d2c-fe4047aa3f61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;due_date&quot;)</value>
-      <webElementGuid>b0aad6c8-ed5b-4321-8544-37cf716c4ee7</webElementGuid>
+      <webElementGuid>6e067d41-116a-4920-aacc-0657136f5cde</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='due_date']</value>
-      <webElementGuid>8bd1f5ef-7330-4acf-9789-a8d112f25ad8</webElementGuid>
+      <webElementGuid>523ebdab-ec27-4837-811b-7a21b84bf1e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='js-ModalDiv']/div/div/div/div[2]/div/div[15]/input</value>
-      <webElementGuid>7a686fc7-4a45-4280-8db2-d9e16cc14b0f</webElementGuid>
+      <webElementGuid>d39de607-94e6-460d-bb01-435147d6ca36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[15]/input</value>
-      <webElementGuid>56262261-ab38-4f2d-b998-b41b1626c819</webElementGuid>
+      <webElementGuid>8fbc95e9-e398-4896-b9c4-24fa3f72f448</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'due_date' and @name = 'due_date' and @type = 'text']</value>
-      <webElementGuid>8768324c-c5d0-4b06-a3c2-63ec28f15fb5</webElementGuid>
+      <webElementGuid>e8e0af06-1624-4d96-adf1-225388f19bd6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
