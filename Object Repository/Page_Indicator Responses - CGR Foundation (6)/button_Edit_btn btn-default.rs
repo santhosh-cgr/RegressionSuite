@@ -21,7 +21,7 @@
          <value>internal:label=&quot;Delete&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9d501763-863b-40c2-bec1-804192859abf</webElementGuid>
+      <webElementGuid>e2a946c5-f24e-4873-a3b9-8fa6429df9df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>e9f525f2-a32d-4aca-9dcb-addaaa7a3510</webElementGuid>
+      <webElementGuid>bb72ad0f-8e00-41eb-b388-8dc7d83e8b18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-default</value>
-      <webElementGuid>c8a17953-e86a-4632-b3d0-73553bc1656f</webElementGuid>
+      <webElementGuid>646611a9-12d1-432e-9eb5-3c155140c42d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f49d2f97-f91d-4e8d-891b-2cb84f58b731</webElementGuid>
+      <webElementGuid>0b711106-06c8-4cd0-a9b3-33c1e5339ef9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>data-original-title</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>bcebdfc7-4d8d-4f63-bc18-a09f3c97b49f</webElementGuid>
+      <webElementGuid>e623d173-6a7b-4f9d-8851-a4480c4c78af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip349317</value>
-      <webElementGuid>6ec17eda-2630-4077-8a8c-03a29546711f</webElementGuid>
+      <webElementGuid>4eabb5b1-019e-4126-be97-12e8b2c30a61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;js-ReactActions&quot;)/div[@class=&quot;btn-group&quot;]/button[@class=&quot;btn btn-default&quot;]</value>
-      <webElementGuid>66b63ed7-7455-4c3d-9bc1-988f75b3556f</webElementGuid>
+      <webElementGuid>97631d5e-ea13-40e4-8f93-54afa71badb0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>86c72c3e-1722-4dac-a1c9-890d91daff82</webElementGuid>
+      <webElementGuid>770063d6-d6bd-45d7-8af2-52f4338319dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='js-ReactActions']/div/button</value>
-      <webElementGuid>50595f05-c140-4e69-84d8-c09330803c5b</webElementGuid>
+      <webElementGuid>918eaaeb-adaa-4b42-88f6-43ea8b0ef7dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Indicator Responses'])[1]/following::button[1]</value>
-      <webElementGuid>c9177893-2e3f-4b5e-ab97-4e8e25e852e7</webElementGuid>
+      <webElementGuid>5ea3730f-c7cf-4537-a531-a5f338c752f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Registers'])[2]/preceding::button[2]</value>
-      <webElementGuid>0309563e-e63d-4062-8f05-83b5aa51b253</webElementGuid>
+      <webElementGuid>5315858d-d779-4a73-b1b7-0d8a6ea96f12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//main/div[2]/div/div/button</value>
-      <webElementGuid>b2371fcd-245b-4455-8607-6811ff7a6ad0</webElementGuid>
+      <webElementGuid>96b306ec-279a-41d7-9e99-52beb390a177</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>3fe3815b-5f53-436b-aab6-a4f9c9e32380</webElementGuid>
+      <webElementGuid>d0c2b2c5-4af3-4806-8068-fb2d0b4269ea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Indicator reporting days,,,,28-07-2025 10:56:39,28-07-2025 11:05:43,9m - 3.472s,FAILED
+,,,,,,,
+"Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days",,,,28-07-2025 10:56:40,28-07-2025 10:59:41,3m - 1.604s,FAILED
+"openBrowser(""https://bug-nation.cgrfoundation-staging.com/accounts/login"")",,,,28-07-2025 10:56:40,28-07-2025 10:59:41,3m - 1.042s,FAILED
+,,,,,,,
+Test Cases/AdminSection,,,,28-07-2025 10:59:41,28-07-2025 11:02:42,3m - 0.312s,FAILED
+"openBrowser("""")",,,,28-07-2025 10:59:42,28-07-2025 11:02:42,3m - 0.083s,FAILED
+,,,,,,,
+Test Cases/TestCloud Sample,,,,28-07-2025 11:02:42,28-07-2025 11:05:43,3m - 0.795s,FAILED
+try,,,,28-07-2025 11:02:42,28-07-2025 11:05:42,3m - 0.078s,FAILED
+catch (Exception e),,,,28-07-2025 11:05:42,28-07-2025 11:05:42,0.128s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",,,,28-07-2025 11:05:42,28-07-2025 11:05:43,0.290s,FAILED

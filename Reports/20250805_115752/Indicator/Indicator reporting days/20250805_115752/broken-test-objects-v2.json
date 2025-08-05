@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard - CGR Foundation (6)/div_Successfully logged in",
+      "brokenLocator": "//div[@id\u003d\u0027js-Toaster\u0027]/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select an item\u0027])[1]/following::div[12]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250805_115752/Indicator/Indicator reporting days/20250805_115752/Object Repository/Page_Dashboard - CGR Foundation (6)/div_Successfully logged in_neighbor.png"
+    }
+  ]
+}

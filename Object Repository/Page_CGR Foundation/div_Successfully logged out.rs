@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>32740f10-0414-4474-ac93-8c255b35d14f</webElementGuid>
+      <webElementGuid>9d073f44-32be-4c59-8108-f90c1c1cf684</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>alert alert-success</value>
-      <webElementGuid>08f261e8-e35a-4550-b719-2fbf084ad471</webElementGuid>
+      <webElementGuid>e282532b-127d-4c5f-b2b7-9e1cfdc8d3eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <value>
 Successfully logged out.
 </value>
-      <webElementGuid>215feb69-c28c-4a80-b033-614258ed8633</webElementGuid>
+      <webElementGuid>0f2b3cf5-9950-4d6a-883f-7ea28b9c7245</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@ Successfully logged out.
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;new_account&quot;)/div[@class=&quot;alert alert-success&quot;]</value>
-      <webElementGuid>17f8f805-c96c-47a6-b092-f36fe69fcb23</webElementGuid>
+      <webElementGuid>f839f8a8-7280-4eae-a4b9-d5c14cf9ce32</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@ Successfully logged out.
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='new_account']/div</value>
-      <webElementGuid>4ad01d8b-41c9-4354-abd0-3b5136060f57</webElementGuid>
+      <webElementGuid>b58bc9aa-a28e-4056-aab1-58b97d141ec9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@ Successfully logged out.
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='or'])[1]/following::div[2]</value>
-      <webElementGuid>eb45ef44-9b7b-442b-8f6b-37960729d39f</webElementGuid>
+      <webElementGuid>71d9c30b-ff32-42ff-8389-35ec14bda599</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@ Successfully logged out.
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in to CGR Foundation'])[1]/following::div[6]</value>
-      <webElementGuid>158efa54-24f9-4f24-9b45-2f9a426e1708</webElementGuid>
+      <webElementGuid>e7c8eaa8-f03a-4e56-95e8-577f48b5b594</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@ Successfully logged out.
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/preceding::div[1]</value>
-      <webElementGuid>5516c7e6-5fdb-43b7-a847-c6c3e250a658</webElementGuid>
+      <webElementGuid>7be35142-ff50-4bf4-ad8c-762ca4529c8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@ Successfully logged out.
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::div[2]</value>
-      <webElementGuid>10d0f671-c6db-4aa5-9895-e21a8c330409</webElementGuid>
+      <webElementGuid>3a31cedf-7348-447a-a24c-560de1629456</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@ Successfully logged out.
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Successfully logged out.']/parent::*</value>
-      <webElementGuid>333f98b1-c2c8-4bd8-bb7a-d5eb26e0b05e</webElementGuid>
+      <webElementGuid>862ca321-233d-4d87-8e2a-c0685cefa590</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@ Successfully logged out.
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form[2]/div</value>
-      <webElementGuid>c0cc109a-a6f3-49b6-be56-8bb67d1350ee</webElementGuid>
+      <webElementGuid>a898ecbd-20e8-42e2-a43e-290739bc2033</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,6 +123,6 @@ Successfully logged out.
 ' or . = '
 Successfully logged out.
 ')]</value>
-      <webElementGuid>8b383b15-a510-4d6c-a3cc-796a3f5872b2</webElementGuid>
+      <webElementGuid>ff78497f-8f8e-495f-b09b-92d8f268a68a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

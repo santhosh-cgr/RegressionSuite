@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Indicator reporting days,,,,28-07-2025 13:43:48,28-07-2025 13:46:50,3m - 2.415s,FAILED
+,,,,,,,
+Test Cases/TestCloud Sample,,,,28-07-2025 13:43:49,28-07-2025 13:46:50,3m - 1.622s,FAILED
+try,,,,28-07-2025 13:43:49,28-07-2025 13:46:50,3m - 0.933s,FAILED
+catch (Exception e),,,,28-07-2025 13:46:50,28-07-2025 13:46:50,0.065s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",,,,28-07-2025 13:46:50,28-07-2025 13:46:50,0.132s,FAILED

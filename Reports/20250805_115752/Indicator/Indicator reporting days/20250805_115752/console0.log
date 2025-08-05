@@ -1,0 +1,638 @@
+Warning: NLS unused message: QTEST in: com.kms.katalon.constants.globalMessages
+Warning: NLS missing message: QTEST_NAME in: com.kms.katalon.constants.globalMessages
+2025-08-05 11:57:56.878 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Indicator/Indicator reporting days
+2025-08-05 11:57:56.996 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Santhosh Nidamanuri
+2025-08-05 11:57:56.998 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = RegressionSuite
+2025-08-05 11:57:56.999 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = santh - Santhosh
+2025-08-05 11:57:56.999 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-08-05 11:57:57.000 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.29.137
+2025-08-05 11:57:57.001 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.3.0
+2025-08-05 11:57:57.723 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-05 11:57:57.723 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TestCloud Sample
+2025-08-05 11:57:58.172 DEBUG testcase.TestCloud Sample                - 1: try
+2025-08-05 11:57:58.177 DEBUG testcase.TestCloud Sample                - 1: openBrowser("")
+2025-08-05 11:57:58.449 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '134']
+2025-08-05 11:57:58.451 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2025-08-05 11:57:58.465 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2025-08-05 11:57:58.466 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=2293188, accountId=1532955, channel=kse;v=10.2.3, projectId=2256648}, executionMode=queue, usingTunnel=false}']
+2025-08-05 11:57:58.508 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+2025-08-05 11:57:58.802 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-08-05 11:58:44.476 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-08-05 11:58:44.478 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-08-05 11:58:44.478 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-08-05 11:58:45.438 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/hub
+2025-08-05 11:58:45.438 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = Windows
+2025-08-05 11:58:45.449 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "se:cdpEnabled": false,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:9225"
+  },
+  "webauthn:extension:credBlob": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "134.0.6998.178",
+  "fedcm:accounts": true,
+  "kt:requestId": "74dd93af-0b3a-487c-b624-e02b2e6f98b2",
+  "browserName": "chrome",
+  "platformName": "WINDOWS",
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "networkConnectionEnabled": false,
+  "chrome": {
+    "chromedriverVersion": "134.0.6998.178 (81fef1e264547cc88c9450117b091ea5798a5adf-refs/branch-heads/6998@{#2329})",
+    "userDataDir": "C:\\Windows\\SystemTemp\\scoped_dir8876_713153458"
+  },
+  "kt:rid": "74dd93af-0b3a-487c-b624-e02b2e6f98b2",
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "se:bidiEnabled": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "webauthn:extension:prf": true,
+  "katalon:caps": {
+    "executionId": "867d5918-352f-47a8-9d24-dc837ba16214",
+    "executionSessionId": "74dd93af-0b3a-487c-b624-e02b2e6f98b2"
+  },
+  "katalon:options": {
+    "executionId": "867d5918-352f-47a8-9d24-dc837ba16214",
+    "executionMode": "queue",
+    "executionSessionId": "74dd93af-0b3a-487c-b624-e02b2e6f98b2",
+    "metadata": {
+      "usingTunnel": false,
+      "accountUuid": "c44afe3b-f76f-4921-9346-27f35171bd65",
+      "organizationId": "2293188",
+      "projectId": "2256648",
+      "channel": "kse;v\u003d10.2.3"
+    },
+    "runFromTestCloud": true,
+    "userId": 1718855,
+    "usingTunnel": false
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2025-08-05 11:58:45.454 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "867d5918-352f-47a8-9d24-dc837ba16214",
+  "executionSessionId": "74dd93af-0b3a-487c-b624-e02b2e6f98b2"
+}
+2025-08-05 11:58:45.456 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 495d6fac588f936cadeb7578ce0d96bf
+2025-08-05 11:58:45.458 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 134.0.6998.178
+2025-08-05 11:58:45.460 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-05 11:58:45.461 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-05 11:58:45.476 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-05 11:58:45.844 DEBUG testcase.TestCloud Sample                - 2: delay(5)
+2025-08-05 11:58:50.949 DEBUG testcase.TestCloud Sample                - 3: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-08-05 11:58:51.879 DEBUG testcase.TestCloud Sample                - 4: click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"))
+2025-08-05 11:58:54.561 DEBUG testcase.TestCloud Sample                - 5: setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe")
+2025-08-05 11:58:58.572 DEBUG testcase.TestCloud Sample                - 6: doubleClick(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control"))
+2025-08-05 11:59:00.381 DEBUG testcase.TestCloud Sample                - 7: click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control"))
+2025-08-05 11:59:02.961 DEBUG testcase.TestCloud Sample                - 8: setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+2025-08-05 11:59:05.661 DEBUG testcase.TestCloud Sample                - 9: click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+2025-08-05 11:59:07.318 DEBUG testcase.TestCloud Sample                - 10: closeBrowser()
+2025-08-05 11:59:09.731 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+2025-08-05 11:59:09.731 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to close browser (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to close browser
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:118)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:83)
+	at TestCloud Sample.run(TestCloud Sample:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:485)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:455)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:447)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:195)
+	at TempTestSuite1754375272522.run(TempTestSuite1754375272522.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: RESTEASY004655: Unable to invoke request: java.net.SocketException: Socket closed
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [495d6fac588f936cadeb7578ce0d96bf, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.178 (81fef1e2645..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:caps: {executionId: 867d5918-352f-47a8-9d24-dc8..., executionSessionId: 74dd93af-0b3a-487c-b624-e02...}, katalon:options: {executionId: 867d5918-352f-47a8-9d24-dc8..., executionMode: queue, executionSessionId: 74dd93af-0b3a-487c-b624-e02..., metadata: {accountUuid: c44afe3b-f76f-4921-9346-27f..., channel: kse;v=10.2.3, organizationId: 2293188, projectId: 2256648, usingTunnel: false}, runFromTestCloud: true, userId: 1718855, usingTunnel: false}, kt:requestId: 74dd93af-0b3a-487c-b624-e02..., kt:rid: 74dd93af-0b3a-487c-b624-e02..., networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 495d6fac588f936cadeb7578ce0d96bf
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:96)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$IRo4ymZu.quit(Unknown Source)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:868)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.doCall(CloseBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.call(CloseBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:83)
+	at Script1753190037592.run(Script1753190037592.groovy:43)
+	... 15 more
+)
+2025-08-05 11:59:09.739 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/TestCloud Sample FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:118)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:83)
+	at TestCloud Sample.run(TestCloud Sample:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:485)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:455)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:447)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:195)
+	at TempTestSuite1754375272522.run(TempTestSuite1754375272522.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: RESTEASY004655: Unable to invoke request: java.net.SocketException: Socket closed
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [495d6fac588f936cadeb7578ce0d96bf, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.178 (81fef1e2645..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:caps: {executionId: 867d5918-352f-47a8-9d24-dc8..., executionSessionId: 74dd93af-0b3a-487c-b624-e02...}, katalon:options: {executionId: 867d5918-352f-47a8-9d24-dc8..., executionMode: queue, executionSessionId: 74dd93af-0b3a-487c-b624-e02..., metadata: {accountUuid: c44afe3b-f76f-4921-9346-27f..., channel: kse;v=10.2.3, organizationId: 2293188, projectId: 2256648, usingTunnel: false}, runFromTestCloud: true, userId: 1718855, usingTunnel: false}, kt:requestId: 74dd93af-0b3a-487c-b624-e02..., kt:rid: 74dd93af-0b3a-487c-b624-e02..., networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 495d6fac588f936cadeb7578ce0d96bf
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:96)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$IRo4ymZu.quit(Unknown Source)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:868)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.doCall(CloseBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.call(CloseBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+2025-08-05 11:59:09.744 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TestCloud Sample
+2025-08-05 11:59:09.749 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-05 11:59:09.749 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AdminSection
+2025-08-05 11:59:09.820 DEBUG testcase.AdminSection                    - 1: openBrowser("")
+2025-08-05 11:59:09.825 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '134']
+2025-08-05 11:59:09.826 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2025-08-05 11:59:09.827 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2025-08-05 11:59:09.827 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=2293188, accountId=1532955, channel=kse;v=10.2.3, projectId=2256648}, executionMode=queue, usingTunnel=false}']
+2025-08-05 11:59:09.829 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+2025-08-05 11:59:09.834 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-08-05 11:59:37.705 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-08-05 11:59:37.707 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-08-05 11:59:37.709 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-08-05 11:59:37.766 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/hub
+2025-08-05 11:59:37.767 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = Windows
+2025-08-05 11:59:37.769 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "se:cdpEnabled": false,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:9225"
+  },
+  "webauthn:extension:credBlob": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "134.0.6998.178",
+  "fedcm:accounts": true,
+  "kt:requestId": "0f7af259-1361-4bc5-b735-f0c2567f57e4",
+  "browserName": "chrome",
+  "platformName": "WINDOWS",
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "networkConnectionEnabled": false,
+  "chrome": {
+    "chromedriverVersion": "134.0.6998.178 (81fef1e264547cc88c9450117b091ea5798a5adf-refs/branch-heads/6998@{#2329})",
+    "userDataDir": "C:\\Windows\\SystemTemp\\scoped_dir1136_976534287"
+  },
+  "kt:rid": "0f7af259-1361-4bc5-b735-f0c2567f57e4",
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "se:bidiEnabled": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "webauthn:extension:prf": true,
+  "katalon:caps": {
+    "executionId": "b16f37ba-420d-42e4-a639-e87a4632be57",
+    "executionSessionId": "0f7af259-1361-4bc5-b735-f0c2567f57e4"
+  },
+  "katalon:options": {
+    "executionId": "b16f37ba-420d-42e4-a639-e87a4632be57",
+    "executionMode": "queue",
+    "executionSessionId": "0f7af259-1361-4bc5-b735-f0c2567f57e4",
+    "metadata": {
+      "usingTunnel": false,
+      "accountUuid": "c44afe3b-f76f-4921-9346-27f35171bd65",
+      "organizationId": "2293188",
+      "projectId": "2256648",
+      "channel": "kse;v\u003d10.2.3"
+    },
+    "runFromTestCloud": true,
+    "userId": 1718855,
+    "usingTunnel": false
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2025-08-05 11:59:37.771 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "b16f37ba-420d-42e4-a639-e87a4632be57",
+  "executionSessionId": "0f7af259-1361-4bc5-b735-f0c2567f57e4"
+}
+2025-08-05 11:59:37.772 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 569f67ad963837260a1435761b772dc9
+2025-08-05 11:59:37.773 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 134.0.6998.178
+2025-08-05 11:59:37.774 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-05 11:59:37.774 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-05 11:59:37.776 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-05 11:59:38.099 DEBUG testcase.AdminSection                    - 2: navigateToUrl("https://bug-nation.cgrfoundation-staging.com/accounts/login")
+2025-08-05 11:59:44.138 DEBUG testcase.AdminSection                    - 3: maximizeWindow()
+2025-08-05 11:59:44.818 DEBUG testcase.AdminSection                    - 4: setText(findTestObject("Object Repository/Page_CGR Foundation/input_Email address_accountemail"), "santhosh.nidamanuri@corpgovrisk.com")
+2025-08-05 11:59:49.622 DEBUG testcase.AdminSection                    - 5: setEncryptedText(findTestObject("Object Repository/Page_CGR Foundation/input_Password_accountpassword"), "g9InqrzvBVyAQwkGaiz+Ig==")
+2025-08-05 11:59:51.548 DEBUG testcase.AdminSection                    - 6: click(findTestObject("Object Repository/Page_CGR Foundation/input_Remember me_commit"))
+2025-08-05 11:59:56.411 DEBUG testcase.AdminSection                    - 7: verifyElementVisible(findTestObject("Object Repository/Page_Dashboard - CGR Foundation (6)/div_Successfully logged in"))
+2025-08-05 12:00:11.626 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //div[@id='js-Toaster']/div/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+2025-08-05 12:00:11.628 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard - CGR Foundation (6)/div_Successfully logged in'. Try using Self-healing.
+2025-08-05 12:00:13.447 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//div[@id='js-Toaster']/div/div/div/div'.
+2025-08-05 12:00:14.661 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Select an item'])[1]/following::div[12]'.
+2025-08-05 12:00:16.221 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Screenshot: C:/Users/santh/git/RegressionSuite/Reports/Self-healing/Object Repository/Page_Dashboard - CGR Foundation (6)/div_Successfully logged in_neighbor.png
+2025-08-05 12:00:16.264 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard - CGR Foundation (6)/div_Successfully logged in' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Select an item'])[1]/following::div[12]'.
+2025-08-05 12:00:16.566 DEBUG testcase.AdminSection                    - 8: click(findTestObject("Object Repository/Page_Dashboard - CGR Foundation (6)/span_Santhosh"))
+2025-08-05 12:00:18.209 DEBUG testcase.AdminSection                    - 9: click(findTestObject("Object Repository/Page_Dashboard - CGR Foundation (6)/a_Admin"))
+2025-08-05 12:00:23.647 DEBUG testcase.AdminSection                    - 10: verifyElementText(findTestObject("Object Repository/Page_Dashboard - CGR Foundation (6)/a_Admin_1"), "Admin")
+2025-08-05 12:00:25.869 DEBUG testcase.AdminSection                    - 11: closeBrowser()
+2025-08-05 12:00:28.245 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+2025-08-05 12:00:28.251 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to close browser (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to close browser
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:118)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:83)
+	at AdminSection.run(AdminSection:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:485)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:455)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:447)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:195)
+	at TempTestSuite1754375272522.run(TempTestSuite1754375272522.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: RESTEASY004655: Unable to invoke request: java.net.SocketException: Socket closed
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [569f67ad963837260a1435761b772dc9, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.178 (81fef1e2645..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:caps: {executionId: b16f37ba-420d-42e4-a639-e87..., executionSessionId: 0f7af259-1361-4bc5-b735-f0c...}, katalon:options: {executionId: b16f37ba-420d-42e4-a639-e87..., executionMode: queue, executionSessionId: 0f7af259-1361-4bc5-b735-f0c..., metadata: {accountUuid: c44afe3b-f76f-4921-9346-27f..., channel: kse;v=10.2.3, organizationId: 2293188, projectId: 2256648, usingTunnel: false}, runFromTestCloud: true, userId: 1718855, usingTunnel: false}, kt:requestId: 0f7af259-1361-4bc5-b735-f0c..., kt:rid: 0f7af259-1361-4bc5-b735-f0c..., networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 569f67ad963837260a1435761b772dc9
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:96)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$eDG6xkn0.quit(Unknown Source)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:868)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.doCall(CloseBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.call(CloseBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:83)
+	at Script1752058612487.run(Script1752058612487.groovy:40)
+	... 15 more
+)
+2025-08-05 12:00:28.262 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/AdminSection FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:118)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:83)
+	at AdminSection.run(AdminSection:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:485)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:455)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:447)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:195)
+	at TempTestSuite1754375272522.run(TempTestSuite1754375272522.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: RESTEASY004655: Unable to invoke request: java.net.SocketException: Socket closed
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [569f67ad963837260a1435761b772dc9, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.178, chrome: {chromedriverVersion: 134.0.6998.178 (81fef1e2645..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, katalon:caps: {executionId: b16f37ba-420d-42e4-a639-e87..., executionSessionId: 0f7af259-1361-4bc5-b735-f0c...}, katalon:options: {executionId: b16f37ba-420d-42e4-a639-e87..., executionMode: queue, executionSessionId: 0f7af259-1361-4bc5-b735-f0c..., metadata: {accountUuid: c44afe3b-f76f-4921-9346-27f..., channel: kse;v=10.2.3, organizationId: 2293188, projectId: 2256648, usingTunnel: false}, runFromTestCloud: true, userId: 1718855, usingTunnel: false}, kt:requestId: 0f7af259-1361-4bc5-b735-f0c..., kt:rid: 0f7af259-1361-4bc5-b735-f0c..., networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 569f67ad963837260a1435761b772dc9
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:96)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$eDG6xkn0.quit(Unknown Source)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:868)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.doCall(CloseBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.call(CloseBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+2025-08-05 12:00:28.270 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AdminSection
+2025-08-05 12:00:28.271 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2025-08-05 12:00:28.272 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2025-08-05 12:00:28.276 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2025-08-05 12:00:28.278 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2025-08-05 12:00:28.279 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2025-08-05 12:00:28.302 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-05 12:00:28.302 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days
+2025-08-05 12:00:28.565 DEBUG 1 response interval and 1 reporting days - 1: openBrowser("https://bug-nation.cgrfoundation-staging.com/accounts/login")
+2025-08-05 12:00:28.572 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '134']
+2025-08-05 12:00:28.573 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2025-08-05 12:00:28.574 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2025-08-05 12:00:28.575 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=2293188, accountId=1532955, channel=kse;v=10.2.3, projectId=2256648}, executionMode=queue, usingTunnel=false}']
+2025-08-05 12:00:28.577 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+2025-08-05 12:00:28.588 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-08-05 12:00:48.404 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-08-05 12:00:48.404 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-08-05 12:00:48.405 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-08-05 12:00:48.453 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/hub
+2025-08-05 12:00:48.454 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = Windows
+2025-08-05 12:00:48.456 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "se:cdpEnabled": false,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:9225"
+  },
+  "webauthn:extension:credBlob": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "134.0.6998.178",
+  "fedcm:accounts": true,
+  "kt:requestId": "2c2e4a6d-1e78-4c55-a28d-c868560c4bef",
+  "browserName": "chrome",
+  "platformName": "WINDOWS",
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "networkConnectionEnabled": false,
+  "chrome": {
+    "chromedriverVersion": "134.0.6998.178 (81fef1e264547cc88c9450117b091ea5798a5adf-refs/branch-heads/6998@{#2329})",
+    "userDataDir": "C:\\Windows\\SystemTemp\\scoped_dir8056_1596157061"
+  },
+  "kt:rid": "2c2e4a6d-1e78-4c55-a28d-c868560c4bef",
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "se:bidiEnabled": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "webauthn:extension:prf": true,
+  "katalon:caps": {
+    "executionId": "fda48d8b-9246-4e93-9af9-24d10dd07df9",
+    "executionSessionId": "2c2e4a6d-1e78-4c55-a28d-c868560c4bef"
+  },
+  "katalon:options": {
+    "executionId": "fda48d8b-9246-4e93-9af9-24d10dd07df9",
+    "executionMode": "queue",
+    "executionSessionId": "2c2e4a6d-1e78-4c55-a28d-c868560c4bef",
+    "metadata": {
+      "usingTunnel": false,
+      "accountUuid": "c44afe3b-f76f-4921-9346-27f35171bd65",
+      "organizationId": "2293188",
+      "projectId": "2256648",
+      "channel": "kse;v\u003d10.2.3"
+    },
+    "runFromTestCloud": true,
+    "userId": 1718855,
+    "usingTunnel": false
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2025-08-05 12:00:48.458 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "fda48d8b-9246-4e93-9af9-24d10dd07df9",
+  "executionSessionId": "2c2e4a6d-1e78-4c55-a28d-c868560c4bef"
+}
+2025-08-05 12:00:48.460 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d9fcac90878fc7c7df7450f486b7e9ca
+2025-08-05 12:00:48.461 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 134.0.6998.178
+2025-08-05 12:00:48.462 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-05 12:00:48.463 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-05 12:00:48.463 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-05 12:00:49.861 DEBUG 1 response interval and 1 reporting days - 2: navigateToUrl("https://bug-nation.cgrfoundation-staging.com/accounts/login")
+2025-08-05 12:00:51.031 DEBUG 1 response interval and 1 reporting days - 3: maximizeWindow()
+2025-08-05 12:00:51.413 DEBUG 1 response interval and 1 reporting days - 4: setText(findTestObject("Object Repository/Page_CGR Foundation/input_Email address_accountemail"), "santhosh.nidamanuri@corpgovrisk.com")
+2025-08-05 12:00:54.615 DEBUG 1 response interval and 1 reporting days - 5: setEncryptedText(findTestObject("Object Repository/Page_CGR Foundation/input_Password_accountpassword"), "g9InqrzvBVyAQwkGaiz+Ig==")
+2025-08-05 12:00:56.845 DEBUG 1 response interval and 1 reporting days - 6: click(findTestObject("Object Repository/Page_CGR Foundation/input_Remember me_commit"))
+2025-08-05 12:01:00.202 DEBUG 1 response interval and 1 reporting days - 7: navigateToUrl("https://bug-nation.cgrfoundation-staging.com/indicators/110")
+2025-08-05 12:01:09.802 DEBUG 1 response interval and 1 reporting days - 8: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit"))
+2025-08-05 12:01:15.451 DEBUG 1 response interval and 1 reporting days - 9: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date"))
+2025-08-05 12:01:19.121 DEBUG 1 response interval and 1 reporting days - 10: setText(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date"), minusDays(1).format(DateTimeFormatter.ofPattern("dd/MM/yyyy")))
+2025-08-05 12:01:22.541 DEBUG 1 response interval and 1 reporting days - 11: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Save"))
+2025-08-05 12:01:23.328 DEBUG 1 response interval and 1 reporting days - 12: verifyElementText(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/div_08 July, 2025"), minusDays(1).format(DateTimeFormatter.ofPattern("dd MMMM, yyyy")))
+2025-08-05 12:01:26.413 DEBUG 1 response interval and 1 reporting days - 13: navigateToUrl("https://bug-nation.cgrfoundation-staging.com/admin/jobs")
+2025-08-05 12:01:29.091 DEBUG 1 response interval and 1 reporting days - 14: click(findTestObject("Object Repository/Page_Background Jobs - CGR Foundation (6)/a_Run"))
+2025-08-05 12:01:34.850 DEBUG 1 response interval and 1 reporting days - 15: navigateToUrl("https://bug-nation.cgrfoundation-staging.com/indicators/110")
+2025-08-05 12:01:36.200 DEBUG 1 response interval and 1 reporting days - 16: refresh()
+2025-08-05 12:01:38.031 DEBUG 1 response interval and 1 reporting days - 17: verifyElementText(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/div_09 July, 2025"), now().format(DateTimeFormatter.ofPattern("dd MMMM, yyyy")))
+2025-08-05 12:01:41.302 DEBUG 1 response interval and 1 reporting days - 18: yesterday = minusDays(1).format(DateTimeFormatter.ofPattern("dd MMMM, yyyy"))
+2025-08-05 12:01:41.312 DEBUG 1 response interval and 1 reporting days - 19: driver = getWebDriver()
+2025-08-05 12:01:41.331 DEBUG 1 response interval and 1 reporting days - 20: xpath = //tr[td[4][text()='$yesterday']]/td[1]/a
+2025-08-05 12:01:41.390 DEBUG 1 response interval and 1 reporting days - 21: element = driver.findElement(By.xpath(xpath))
+2025-08-05 12:01:42.499 DEBUG 1 response interval and 1 reporting days - 22: element.click()
+2025-08-05 12:01:43.915 DEBUG 1 response interval and 1 reporting days - 23: click(findTestObject("Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Edit_btn btn-default"))
+2025-08-05 12:01:45.326 DEBUG 1 response interval and 1 reporting days - 24: setText(findTestObject("Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_Delete"), "Delete")
+2025-08-05 12:01:48.803 DEBUG 1 response interval and 1 reporting days - 25: click(findTestObject("Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Delete"))
+2025-08-05 12:01:54.813 DEBUG 1 response interval and 1 reporting days - 26: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit"))
+2025-08-05 12:02:28.062 DEBUG 1 response interval and 1 reporting days - 27: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date"))
+2025-08-05 12:02:59.296 DEBUG 1 response interval and 1 reporting days - 28: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/span_Dec_glyphicon glyphicon-trash"))
+2025-08-05 12:03:02.236 DEBUG 1 response interval and 1 reporting days - 29: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Save"))
+2025-08-05 12:03:03.040 DEBUG 1 response interval and 1 reporting days - 30: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/span_Santhosh"))
+2025-08-05 12:03:06.335 DEBUG 1 response interval and 1 reporting days - 31: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/a_Log out"))
+2025-08-05 12:03:08.746 DEBUG 1 response interval and 1 reporting days - 32: acceptAlert()
+2025-08-05 12:03:10.525 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ No alert found (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1598)
+	at Indicator Current Date-1, 1 response interval and 1 reporting days.run(Indicator Current Date-1, 1 response interval and 1 reporting days:92)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:485)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:455)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:447)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:195)
+	at TempTestSuite1754375272522.run(TempTestSuite1754375272522.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-08-05 12:03:11.352 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:118)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1598)
+	at Indicator Current Date-1, 1 response interval and 1 reporting days.run(Indicator Current Date-1, 1 response interval and 1 reporting days:92)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:485)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:455)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:447)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:195)
+	at TempTestSuite1754375272522.run(TempTestSuite1754375272522.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+)
+2025-08-05 12:03:11.355 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:118)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1598)
+	at Indicator Current Date-1, 1 response interval and 1 reporting days.run(Indicator Current Date-1, 1 response interval and 1 reporting days:92)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:485)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:476)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:455)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:447)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:195)
+	at TempTestSuite1754375272522.run(TempTestSuite1754375272522.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+2025-08-05 12:03:11.360 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days
+2025-08-05 12:03:13.183 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-08-05 12:03:13.183 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Indicator/Indicator reporting days
+2025-08-05 12:03:13.183 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

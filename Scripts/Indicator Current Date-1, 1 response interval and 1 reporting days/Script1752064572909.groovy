@@ -22,7 +22,7 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://bug-nation.cgrfoundation-staging.com/accounts/login')
 
 WebUI.navigateToUrl('https://bug-nation.cgrfoundation-staging.com/accounts/login')
 
@@ -53,6 +53,8 @@ WebUI.navigateToUrl('https://bug-nation.cgrfoundation-staging.com/admin/jobs')
 WebUI.click(findTestObject('Object Repository/Page_Background Jobs - CGR Foundation (6)/a_Run'))
 
 WebUI.navigateToUrl('https://bug-nation.cgrfoundation-staging.com/indicators/110')
+
+WebUI.refresh()
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/div_09 July, 2025'), LocalDate.now().format(
         DateTimeFormatter.ofPattern('dd MMMM, yyyy')))

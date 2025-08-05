@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Indicator reporting days,,,,28-07-2025 13:26:42,28-07-2025 13:26:43,1.786s,INCOMPLETE
+,,,,,,,
+Test Cases/AdminSection,,,,28-07-2025 13:26:42,28-07-2025 13:26:43,1.121s,INCOMPLETE
+"openBrowser("""")",,,,28-07-2025 13:26:43,28-07-2025 13:26:43,0.695s,INCOMPLETE

@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Indicator reporting days,Chrome 138.0.7204.158,,,28-07-2025 10:44:14,28-07-2025 10:45:22,1m - 8.298s,PASSED
+,,,,,,,
+"Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days",Chrome 138.0.7204.158,,,28-07-2025 10:44:15,28-07-2025 10:44:54,38.832s,PASSED
+"openBrowser(""https://bug-nation.cgrfoundation-staging.com/accounts/login"")",Chrome 138.0.7204.158,,,28-07-2025 10:44:15,28-07-2025 10:44:19,4.153s,PASSED
+"navigateToUrl(""https://bug-nation.cgrfoundation-staging.com/accounts/login"")",Chrome 138.0.7204.158,,,28-07-2025 10:44:19,28-07-2025 10:44:20,0.536s,PASSED
+maximizeWindow(),Chrome 138.0.7204.158,,,28-07-2025 10:44:20,28-07-2025 10:44:20,0.174s,PASSED
+"setText(findTestObject(""Object Repository/Page_CGR Foundation/input_Email address_accountemail""), ""santhosh.nidamanuri@corpgovrisk.com"")",Chrome 138.0.7204.158,,,28-07-2025 10:44:20,28-07-2025 10:44:21,0.824s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CGR Foundation/input_Password_accountpassword""), ""g9InqrzvBVyAQwkGaiz+Ig=="")",Chrome 138.0.7204.158,,,28-07-2025 10:44:21,28-07-2025 10:44:21,0.412s,PASSED
+"click(findTestObject(""Object Repository/Page_CGR Foundation/input_Remember me_commit""))",Chrome 138.0.7204.158,,,28-07-2025 10:44:21,28-07-2025 10:44:24,2.444s,PASSED
+"navigateToUrl(""https://bug-nation.cgrfoundation-staging.com/indicators/110"")",Chrome 138.0.7204.158,,,28-07-2025 10:44:24,28-07-2025 10:44:25,1.114s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit""))",Chrome 138.0.7204.158,,,28-07-2025 10:44:25,28-07-2025 10:44:27,2.109s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date""))",Chrome 138.0.7204.158,,,28-07-2025 10:44:27,28-07-2025 10:44:28,0.792s,PASSED
+"setText(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date""), minusDays(1).format(DateTimeFormatter.ofPattern(""dd/MM/yyyy"")))",Chrome 138.0.7204.158,,,28-07-2025 10:44:28,28-07-2025 10:44:29,1.391s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/button_Save""))",Chrome 138.0.7204.158,,,28-07-2025 10:44:29,28-07-2025 10:44:29,0.210s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/div_08 July, 2025""), minusDays(1).format(DateTimeFormatter.ofPattern(""dd MMMM, yyyy"")))",Chrome 138.0.7204.158,,,28-07-2025 10:44:29,28-07-2025 10:44:32,2.835s,PASSED
+"navigateToUrl(""https://bug-nation.cgrfoundation-staging.com/admin/jobs"")",Chrome 138.0.7204.158,,,28-07-2025 10:44:32,28-07-2025 10:44:33,1.039s,PASSED
+"click(findTestObject(""Object Repository/Page_Background Jobs - CGR Foundation (6)/a_Run""))",Chrome 138.0.7204.158,,,28-07-2025 10:44:33,28-07-2025 10:44:36,2.177s,PASSED
+"navigateToUrl(""https://bug-nation.cgrfoundation-staging.com/indicators/110"")",Chrome 138.0.7204.158,,,28-07-2025 10:44:36,28-07-2025 10:44:36,0.730s,PASSED
+refresh(),Chrome 138.0.7204.158,,,28-07-2025 10:44:36,28-07-2025 10:44:37,1.169s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/div_09 July, 2025""), now().format(DateTimeFormatter.ofPattern(""dd MMMM, yyyy"")))",Chrome 138.0.7204.158,,,28-07-2025 10:44:37,28-07-2025 10:44:39,1.778s,PASSED
+"yesterday = minusDays(1).format(DateTimeFormatter.ofPattern(""dd MMMM, yyyy""))",Chrome 138.0.7204.158,,,28-07-2025 10:44:39,28-07-2025 10:44:39,0.008s,PASSED
+driver = getWebDriver(),Chrome 138.0.7204.158,,,28-07-2025 10:44:39,28-07-2025 10:44:39,0.023s,PASSED
+xpath = //tr[td[4][text()='$yesterday']]/td[1]/a,Chrome 138.0.7204.158,,,28-07-2025 10:44:39,28-07-2025 10:44:39,0.064s,PASSED
+element = driver.findElement(By.xpath(xpath)),Chrome 138.0.7204.158,,,28-07-2025 10:44:39,28-07-2025 10:44:40,0.374s,PASSED
+element.click(),Chrome 138.0.7204.158,,,28-07-2025 10:44:40,28-07-2025 10:44:40,0.710s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Edit_btn btn-default""))",Chrome 138.0.7204.158,,,28-07-2025 10:44:40,28-07-2025 10:44:41,0.940s,PASSED
+"setText(findTestObject(""Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_Delete""), ""Delete"")",Chrome 138.0.7204.158,,,28-07-2025 10:44:41,28-07-2025 10:44:43,1.246s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Delete""))",Chrome 138.0.7204.158,,,28-07-2025 10:44:43,28-07-2025 10:44:43,0.720s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit""))",Chrome 138.0.7204.158,,,28-07-2025 10:44:43,28-07-2025 10:44:47,3.382s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date""))",Chrome 138.0.7204.158,,,28-07-2025 10:44:47,28-07-2025 10:44:48,0.868s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/span_Dec_glyphicon glyphicon-trash""))",Chrome 138.0.7204.158,,,28-07-2025 10:44:48,28-07-2025 10:44:49,1.097s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/button_Save""))",Chrome 138.0.7204.158,,,28-07-2025 10:44:49,28-07-2025 10:44:49,0.252s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/span_Santhosh""))",Chrome 138.0.7204.158,,,28-07-2025 10:44:49,28-07-2025 10:44:51,2.366s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/a_Log out""))",Chrome 138.0.7204.158,,,28-07-2025 10:44:51,28-07-2025 10:44:52,0.438s,PASSED
+acceptAlert(),Chrome 138.0.7204.158,,,28-07-2025 10:44:52,28-07-2025 10:44:52,0.085s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CGR Foundation/div_Successfully logged out""), ""Successfully logged out."")",Chrome 138.0.7204.158,,,28-07-2025 10:44:52,28-07-2025 10:44:53,0.958s,PASSED
+closeBrowser(),Chrome 138.0.7204.158,,,28-07-2025 10:44:53,28-07-2025 10:44:54,0.838s,PASSED
+,,,,,,,
+Test Cases/AdminSection,Chrome 138.0.7204.158,,,28-07-2025 10:44:54,28-07-2025 10:45:07,13.617s,PASSED
+"openBrowser("""")",Chrome 138.0.7204.158,,,28-07-2025 10:44:54,28-07-2025 10:44:56,1.744s,PASSED
+"navigateToUrl(""https://bug-nation.cgrfoundation-staging.com/accounts/login"")",Chrome 138.0.7204.158,,,28-07-2025 10:44:56,28-07-2025 10:44:57,1.032s,PASSED
+maximizeWindow(),Chrome 138.0.7204.158,,,28-07-2025 10:44:57,28-07-2025 10:44:57,0.124s,PASSED
+"setText(findTestObject(""Object Repository/Page_CGR Foundation/input_Email address_accountemail""), ""santhosh.nidamanuri@corpgovrisk.com"")",Chrome 138.0.7204.158,,,28-07-2025 10:44:57,28-07-2025 10:44:58,0.863s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CGR Foundation/input_Password_accountpassword""), ""g9InqrzvBVyAQwkGaiz+Ig=="")",Chrome 138.0.7204.158,,,28-07-2025 10:44:58,28-07-2025 10:44:58,0.418s,PASSED
+"click(findTestObject(""Object Repository/Page_CGR Foundation/input_Remember me_commit""))",Chrome 138.0.7204.158,,,28-07-2025 10:44:58,28-07-2025 10:45:00,2.164s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard - CGR Foundation (6)/div_Successfully logged in""))",Chrome 138.0.7204.158,,,28-07-2025 10:45:00,28-07-2025 10:45:03,2.916s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - CGR Foundation (6)/span_Santhosh""))",Chrome 138.0.7204.158,,,28-07-2025 10:45:03,28-07-2025 10:45:04,0.427s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - CGR Foundation (6)/a_Admin""))",Chrome 138.0.7204.158,,,28-07-2025 10:45:04,28-07-2025 10:45:05,1.791s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Dashboard - CGR Foundation (6)/a_Admin_1""), ""Admin"")",Chrome 138.0.7204.158,,,28-07-2025 10:45:05,28-07-2025 10:45:07,1.241s,PASSED
+closeBrowser(),Chrome 138.0.7204.158,,,28-07-2025 10:45:07,28-07-2025 10:45:07,0.698s,PASSED
+,,,,,,,
+Test Cases/TestCloud Sample,Chrome 138.0.7204.158,,,28-07-2025 10:45:07,28-07-2025 10:45:22,15.127s,PASSED
+try,Chrome 138.0.7204.158,,,28-07-2025 10:45:08,28-07-2025 10:45:18,10.732s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 138.0.7204.158,,,28-07-2025 10:45:18,28-07-2025 10:45:19,0.817s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 138.0.7204.158,,,28-07-2025 10:45:19,28-07-2025 10:45:20,0.842s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 138.0.7204.158,,,28-07-2025 10:45:20,28-07-2025 10:45:20,0.417s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 138.0.7204.158,,,28-07-2025 10:45:20,28-07-2025 10:45:21,0.312s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 138.0.7204.158,,,28-07-2025 10:45:21,28-07-2025 10:45:21,0.415s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 138.0.7204.158,,,28-07-2025 10:45:21,28-07-2025 10:45:22,0.958s,PASSED
+closeBrowser(),Chrome 138.0.7204.158,,,28-07-2025 10:45:22,28-07-2025 10:45:22,0.372s,PASSED

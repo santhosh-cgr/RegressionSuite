@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Indicator reporting days" time="68.268" tests="3" failures="0" errors="0">
+   <testsuite name="Indicator reporting days" tests="3" failures="0" errors="0" time="68.268" skipped="0" timestamp="2025-07-28T05:14:14.606Z" hostname="santh - Santhosh" id="Test Suites/Indicator/Indicator reporting days">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\santh\\git\\RegressionSuite\\Reports\\20250728_104409\\Indicator\\Indicator reporting days\\20250728_104409"/>
+         <property name="logFiles" value="C:\\Users\\santh\\git\\RegressionSuite\\Reports\\20250728_104409\\Indicator\\Indicator reporting days\\20250728_104409\\console0.log, C:\\Users\\santh\\git\\RegressionSuite\\Reports\\20250728_104409\\Indicator\\Indicator reporting days\\20250728_104409\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="santh - Santhosh"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.3.0"/>
+         <property name="browser" value="Chrome 138.0.7204.158"/>
+         <property name="userFullName" value="Santhosh Nidamanuri"/>
+         <property name="hostAddress" value="192.168.29.137"/>
+         <property name="sessionId" value="ab2c02550a9a796375bee2a96a77a04e"/>
+         <property name="projectName" value="RegressionSuite"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days" time="38.832" classname="Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days" status="PASSED">
+         <system-out><![CDATA[28-07-2025T10:44:15 - [TEST_CASE][PASSED] - Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days: Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days
+
+28-07-2025T10:44:15 - [TEST_STEP][PASSED] - openBrowser("https://bug-nation.cgrfoundation-staging.com/accounts/login"): Browser is opened with url: 'https://bug-nation.cgrfoundation-staging.com/accounts/login'
+
+28-07-2025T10:44:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-07-2025T10:44:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-07-2025T10:44:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://bug-nation.cgrfoundation-staging.com/accounts/login'
+
+28-07-2025T10:44:19 - [TEST_STEP][PASSED] - navigateToUrl("https://bug-nation.cgrfoundation-staging.com/accounts/login"): Navigate to 'https://bug-nation.cgrfoundation-staging.com/accounts/login' successfully
+
+28-07-2025T10:44:20 - [MESSAGE][PASSED] - Navigate to 'https://bug-nation.cgrfoundation-staging.com/accounts/login' successfully
+
+28-07-2025T10:44:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-07-2025T10:44:20 - [MESSAGE][PASSED] - Current window maximized
+
+28-07-2025T10:44:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CGR Foundation/input_Email address_accountemail"), "santhosh.nidamanuri@corpgovrisk.com"): Text 'santhosh.nidamanuri@corpgovrisk.com' is set on object 'Object Repository/Page_CGR Foundation/input_Email address_accountemail'
+
+28-07-2025T10:44:21 - [MESSAGE][PASSED] - Text 'santhosh.nidamanuri@corpgovrisk.com' is set on object 'Object Repository/Page_CGR Foundation/input_Email address_accountemail'
+
+28-07-2025T10:44:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CGR Foundation/input_Password_accountpassword"), "g9InqrzvBVyAQwkGaiz+Ig=="): Text ****** has been set on object 'Object Repository/Page_CGR Foundation/input_Password_accountpassword'
+
+28-07-2025T10:44:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CGR Foundation/input_Password_accountpassword'
+
+28-07-2025T10:44:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CGR Foundation/input_Remember me_commit")): Object: 'Object Repository/Page_CGR Foundation/input_Remember me_commit' is clicked on
+
+28-07-2025T10:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CGR Foundation/input_Remember me_commit' is clicked on
+
+28-07-2025T10:44:24 - [TEST_STEP][PASSED] - navigateToUrl("https://bug-nation.cgrfoundation-staging.com/indicators/110"): Navigate to 'https://bug-nation.cgrfoundation-staging.com/indicators/110' successfully
+
+28-07-2025T10:44:25 - [MESSAGE][PASSED] - Navigate to 'https://bug-nation.cgrfoundation-staging.com/indicators/110' successfully
+
+28-07-2025T10:44:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit' is clicked on
+
+28-07-2025T10:44:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit' is clicked on
+
+28-07-2025T10:44:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date' is clicked on
+
+28-07-2025T10:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date' is clicked on
+
+28-07-2025T10:44:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date"), minusDays(1).format(DateTimeFormatter.ofPattern("dd/MM/yyyy"))): Text '27/07/2025' is set on object 'Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date'
+
+28-07-2025T10:44:29 - [MESSAGE][PASSED] - Text '27/07/2025' is set on object 'Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date'
+
+28-07-2025T10:44:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Save")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Save' is clicked on
+
+28-07-2025T10:44:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Save' is clicked on
+
+28-07-2025T10:44:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/div_08 July, 2025"), minusDays(1).format(DateTimeFormatter.ofPattern("dd MMMM, yyyy"))): Actual text and expected text of test object 'Object Repository/Page_Indicators - CGR Foundation (6)/div_08 July, 2025' are matched.
+
+28-07-2025T10:44:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Indicators - CGR Foundation (6)/div_08 July, 2025' are matched.
+
+28-07-2025T10:44:32 - [TEST_STEP][PASSED] - navigateToUrl("https://bug-nation.cgrfoundation-staging.com/admin/jobs"): Navigate to 'https://bug-nation.cgrfoundation-staging.com/admin/jobs' successfully
+
+28-07-2025T10:44:33 - [MESSAGE][PASSED] - Navigate to 'https://bug-nation.cgrfoundation-staging.com/admin/jobs' successfully
+
+28-07-2025T10:44:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Background Jobs - CGR Foundation (6)/a_Run")): Object: 'Object Repository/Page_Background Jobs - CGR Foundation (6)/a_Run' is clicked on
+
+28-07-2025T10:44:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Background Jobs - CGR Foundation (6)/a_Run' is clicked on
+
+28-07-2025T10:44:36 - [TEST_STEP][PASSED] - navigateToUrl("https://bug-nation.cgrfoundation-staging.com/indicators/110"): Navigate to 'https://bug-nation.cgrfoundation-staging.com/indicators/110' successfully
+
+28-07-2025T10:44:36 - [MESSAGE][PASSED] - Navigate to 'https://bug-nation.cgrfoundation-staging.com/indicators/110' successfully
+
+28-07-2025T10:44:36 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+28-07-2025T10:44:37 - [MESSAGE][PASSED] - Refresh successfully
+
+28-07-2025T10:44:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/div_09 July, 2025"), now().format(DateTimeFormatter.ofPattern("dd MMMM, yyyy"))): Actual text and expected text of test object 'Object Repository/Page_Indicators - CGR Foundation (6)/div_09 July, 2025' are matched.
+
+28-07-2025T10:44:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Indicators - CGR Foundation (6)/div_09 July, 2025' are matched.
+
+28-07-2025T10:44:39 - [TEST_STEP][PASSED] - yesterday = minusDays(1).format(DateTimeFormatter.ofPattern("dd MMMM, yyyy")): null
+
+28-07-2025T10:44:39 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+28-07-2025T10:44:39 - [TEST_STEP][PASSED] - xpath = //tr[td[4][text()='$yesterday']]/td[1]/a: null
+
+28-07-2025T10:44:39 - [TEST_STEP][PASSED] - element = driver.findElement(By.xpath(xpath)): null
+
+28-07-2025T10:44:40 - [TEST_STEP][PASSED] - element.click(): null
+
+28-07-2025T10:44:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Edit_btn btn-default")): Object: 'Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Edit_btn btn-default' is clicked on
+
+28-07-2025T10:44:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Edit_btn btn-default' is clicked on
+
+28-07-2025T10:44:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_Delete"), "Delete"): Text 'Delete' is set on object 'Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_Delete'
+
+28-07-2025T10:44:43 - [MESSAGE][PASSED] - Text 'Delete' is set on object 'Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_Delete'
+
+28-07-2025T10:44:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Delete")): Object: 'Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Delete' is clicked on
+
+28-07-2025T10:44:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Delete' is clicked on
+
+28-07-2025T10:44:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit' is clicked on
+
+28-07-2025T10:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit' is clicked on
+
+28-07-2025T10:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date' is clicked on
+
+28-07-2025T10:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date' is clicked on
+
+28-07-2025T10:44:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/span_Dec_glyphicon glyphicon-trash")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/span_Dec_glyphicon glyphicon-trash' is clicked on
+
+28-07-2025T10:44:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/span_Dec_glyphicon glyphicon-trash' is clicked on
+
+28-07-2025T10:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Save")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Save' is clicked on
+
+28-07-2025T10:44:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Save' is clicked on
+
+28-07-2025T10:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/span_Santhosh")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/span_Santhosh' is clicked on
+
+28-07-2025T10:44:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/span_Santhosh' is clicked on
+
+28-07-2025T10:44:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/a_Log out")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/a_Log out' is clicked on
+
+28-07-2025T10:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/a_Log out' is clicked on
+
+28-07-2025T10:44:52 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+28-07-2025T10:44:52 - [MESSAGE][PASSED] - Alert accepted
+
+28-07-2025T10:44:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CGR Foundation/div_Successfully logged out"), "Successfully logged out."): Actual text and expected text of test object 'Object Repository/Page_CGR Foundation/div_Successfully logged out' are matched.
+
+28-07-2025T10:44:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CGR Foundation/div_Successfully logged out' are matched.
+
+28-07-2025T10:44:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-07-2025T10:44:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AdminSection" time="13.617" classname="Test Cases/AdminSection" status="PASSED">
+         <system-out><![CDATA[28-07-2025T10:44:54 - [TEST_CASE][PASSED] - Test Cases/AdminSection: Test Cases/AdminSection
+
+28-07-2025T10:44:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-07-2025T10:44:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-07-2025T10:44:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-07-2025T10:44:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-07-2025T10:44:56 - [TEST_STEP][PASSED] - navigateToUrl("https://bug-nation.cgrfoundation-staging.com/accounts/login"): Navigate to 'https://bug-nation.cgrfoundation-staging.com/accounts/login' successfully
+
+28-07-2025T10:44:57 - [MESSAGE][PASSED] - Navigate to 'https://bug-nation.cgrfoundation-staging.com/accounts/login' successfully
+
+28-07-2025T10:44:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-07-2025T10:44:57 - [MESSAGE][PASSED] - Current window maximized
+
+28-07-2025T10:44:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CGR Foundation/input_Email address_accountemail"), "santhosh.nidamanuri@corpgovrisk.com"): Text 'santhosh.nidamanuri@corpgovrisk.com' is set on object 'Object Repository/Page_CGR Foundation/input_Email address_accountemail'
+
+28-07-2025T10:44:58 - [MESSAGE][PASSED] - Text 'santhosh.nidamanuri@corpgovrisk.com' is set on object 'Object Repository/Page_CGR Foundation/input_Email address_accountemail'
+
+28-07-2025T10:44:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CGR Foundation/input_Password_accountpassword"), "g9InqrzvBVyAQwkGaiz+Ig=="): Text ****** has been set on object 'Object Repository/Page_CGR Foundation/input_Password_accountpassword'
+
+28-07-2025T10:44:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CGR Foundation/input_Password_accountpassword'
+
+28-07-2025T10:44:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CGR Foundation/input_Remember me_commit")): Object: 'Object Repository/Page_CGR Foundation/input_Remember me_commit' is clicked on
+
+28-07-2025T10:45:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CGR Foundation/input_Remember me_commit' is clicked on
+
+28-07-2025T10:45:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Dashboard - CGR Foundation (6)/div_Successfully logged in")): Object 'Object Repository/Page_Dashboard - CGR Foundation (6)/div_Successfully logged in' is visible
+
+28-07-2025T10:45:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dashboard - CGR Foundation (6)/div_Successfully logged in' is visible
+
+28-07-2025T10:45:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard - CGR Foundation (6)/span_Santhosh")): Object: 'Object Repository/Page_Dashboard - CGR Foundation (6)/span_Santhosh' is clicked on
+
+28-07-2025T10:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard - CGR Foundation (6)/span_Santhosh' is clicked on
+
+28-07-2025T10:45:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard - CGR Foundation (6)/a_Admin")): Object: 'Object Repository/Page_Dashboard - CGR Foundation (6)/a_Admin' is clicked on
+
+28-07-2025T10:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard - CGR Foundation (6)/a_Admin' is clicked on
+
+28-07-2025T10:45:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Dashboard - CGR Foundation (6)/a_Admin_1"), "Admin"): Actual text and expected text of test object 'Object Repository/Page_Dashboard - CGR Foundation (6)/a_Admin_1' are matched.
+
+28-07-2025T10:45:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dashboard - CGR Foundation (6)/a_Admin_1' are matched.
+
+28-07-2025T10:45:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-07-2025T10:45:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCloud Sample" time="15.127" classname="Test Cases/TestCloud Sample" status="PASSED">
+         <system-out><![CDATA[28-07-2025T10:45:07 - [TEST_CASE][PASSED] - Test Cases/TestCloud Sample: Test Cases/TestCloud Sample
+
+28-07-2025T10:45:08 - [TEST_STEP][PASSED] - try: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-07-2025T10:45:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-07-2025T10:45:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-07-2025T10:45:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-07-2025T10:45:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-07-2025T10:45:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-07-2025T10:45:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-07-2025T10:45:14 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-07-2025T10:45:18 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-07-2025T10:45:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+28-07-2025T10:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+28-07-2025T10:45:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+28-07-2025T10:45:20 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+28-07-2025T10:45:20 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control' is double clicked on
+
+28-07-2025T10:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control' is double clicked on
+
+28-07-2025T10:45:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control' is clicked on
+
+28-07-2025T10:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control' is clicked on
+
+28-07-2025T10:45:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+28-07-2025T10:45:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+28-07-2025T10:45:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+28-07-2025T10:45:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+28-07-2025T10:45:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-07-2025T10:45:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-07-2025T10:44:14 - [TEST_SUITE][PASSED] - Indicator reporting days: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

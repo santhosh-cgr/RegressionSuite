@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='js-Toaster']/div/div/div/div</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Select an item'])[1]/following::div[12]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>601125dc-3a84-469c-9b07-c198253ec81c</webElementGuid>
+      <webElementGuid>61edcc52-04fd-4793-aeee-d10d533d501b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>title</value>
-      <webElementGuid>f8942b88-1569-4878-a169-febdc245a7b3</webElementGuid>
+      <webElementGuid>8be5cb62-8b65-437d-9651-2da515620531</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Successfully logged in.</value>
-      <webElementGuid>e316a592-9194-461c-abc3-9ae0dc71925a</webElementGuid>
+      <webElementGuid>d1242756-567e-45b2-b1e9-97c6d85e601d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;js-Toaster&quot;)/div[@class=&quot;toaster&quot;]/div[@class=&quot;toast-container&quot;]/div[@class=&quot;toast success visible&quot;]/div[@class=&quot;title&quot;]</value>
-      <webElementGuid>cb274123-b35b-449f-9cb4-d906f52342d9</webElementGuid>
+      <webElementGuid>ef72169c-a1f7-4e70-9d46-1a0cfdfa9cd3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='js-Toaster']/div/div/div/div</value>
-      <webElementGuid>b3445fe0-e43c-482e-8f15-84cacf73f0f0</webElementGuid>
+      <webElementGuid>0a1edc0d-bf7b-41be-a154-8dd8556143ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select an item'])[1]/following::div[12]</value>
-      <webElementGuid>1d65c066-5d4d-4bbd-acc5-4f72f82fd189</webElementGuid>
+      <webElementGuid>b28188dd-16ae-45d2-b19b-ea221a6d45ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::div[21]</value>
-      <webElementGuid>845015d5-18fc-4ef8-b809-51d749718418</webElementGuid>
+      <webElementGuid>84fe5d13-d494-4264-a14d-6463ac6b6c46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Successfully logged in.']/parent::*</value>
-      <webElementGuid>995eb646-0049-4a56-b3f6-be1acd583479</webElementGuid>
+      <webElementGuid>e75ab66b-12e2-4a88-bd09-17eb07cf87aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[9]/div/div/div/div</value>
-      <webElementGuid>b49f9e6c-b8ec-48aa-a7ae-273fd2685131</webElementGuid>
+      <webElementGuid>cce46edb-440c-4fc8-acd3-d4dd4bc3e5c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Successfully logged in.' or . = 'Successfully logged in.')]</value>
-      <webElementGuid>2f033d65-c693-42fd-9ef4-9bd30bd72d4b</webElementGuid>
+      <webElementGuid>6599ed9d-58e1-47eb-87db-5f4d168d72fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

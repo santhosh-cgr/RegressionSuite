@@ -1,0 +1,19 @@
+Warning: NLS unused message: QTEST in: com.kms.katalon.constants.globalMessages
+Warning: NLS missing message: QTEST_NAME in: com.kms.katalon.constants.globalMessages
+2025-08-05 12:03:26.973 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Indicator/Indicator reporting days
+2025-08-05 12:03:27.144 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Santhosh Nidamanuri
+2025-08-05 12:03:27.148 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = RegressionSuite
+2025-08-05 12:03:27.149 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = santh - Santhosh
+2025-08-05 12:03:27.157 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-08-05 12:03:27.159 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.29.137
+2025-08-05 12:03:27.165 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.3.0
+2025-08-05 12:03:28.143 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-05 12:03:28.144 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TestCloud Sample
+2025-08-05 12:03:28.712 DEBUG testcase.TestCloud Sample                - 1: try
+2025-08-05 12:03:28.716 DEBUG testcase.TestCloud Sample                - 1: openBrowser("")
+2025-08-05 12:03:29.046 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '134']
+2025-08-05 12:03:29.047 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2025-08-05 12:03:29.064 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2025-08-05 12:03:29.065 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=2293188, accountId=1532955, channel=kse;v=10.2.3, projectId=2256648}, executionMode=queue, usingTunnel=false}']
+2025-08-05 12:03:29.132 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+2025-08-05 12:03:29.466 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds

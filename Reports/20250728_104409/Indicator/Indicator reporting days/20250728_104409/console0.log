@@ -1,0 +1,105 @@
+Warning: NLS unused message: QTEST in: com.kms.katalon.constants.globalMessages
+Warning: NLS missing message: QTEST_NAME in: com.kms.katalon.constants.globalMessages
+2025-07-28 10:44:14.507 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Indicator/Indicator reporting days
+2025-07-28 10:44:14.633 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Santhosh Nidamanuri
+2025-07-28 10:44:14.635 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = RegressionSuite
+2025-07-28 10:44:14.635 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = santh - Santhosh
+2025-07-28 10:44:14.636 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-07-28 10:44:14.637 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.29.137
+2025-07-28 10:44:14.638 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.3.0
+2025-07-28 10:44:15.273 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-28 10:44:15.274 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days
+2025-07-28 10:44:15.794 DEBUG 1 response interval and 1 reporting days - 1: openBrowser("https://bug-nation.cgrfoundation-staging.com/accounts/login")
+2025-07-28 10:44:16.063 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-07-28 10:44:16.148 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jul 28, 2025 10:44:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 138
+2025-07-28 10:44:18.892 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8347158538176793f4553e62fbdbe56f
+2025-07-28 10:44:18.893 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.158
+2025-07-28 10:44:18.894 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-07-28 10:44:18.895 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-28 10:44:18.908 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-28 10:44:19.947 DEBUG 1 response interval and 1 reporting days - 2: navigateToUrl("https://bug-nation.cgrfoundation-staging.com/accounts/login")
+2025-07-28 10:44:20.484 DEBUG 1 response interval and 1 reporting days - 3: maximizeWindow()
+2025-07-28 10:44:20.658 DEBUG 1 response interval and 1 reporting days - 4: setText(findTestObject("Object Repository/Page_CGR Foundation/input_Email address_accountemail"), "santhosh.nidamanuri@corpgovrisk.com")
+2025-07-28 10:44:21.484 DEBUG 1 response interval and 1 reporting days - 5: setEncryptedText(findTestObject("Object Repository/Page_CGR Foundation/input_Password_accountpassword"), "g9InqrzvBVyAQwkGaiz+Ig==")
+2025-07-28 10:44:21.897 DEBUG 1 response interval and 1 reporting days - 6: click(findTestObject("Object Repository/Page_CGR Foundation/input_Remember me_commit"))
+2025-07-28 10:44:24.341 DEBUG 1 response interval and 1 reporting days - 7: navigateToUrl("https://bug-nation.cgrfoundation-staging.com/indicators/110")
+2025-07-28 10:44:25.457 DEBUG 1 response interval and 1 reporting days - 8: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit"))
+2025-07-28 10:44:27.566 DEBUG 1 response interval and 1 reporting days - 9: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date"))
+2025-07-28 10:44:28.360 DEBUG 1 response interval and 1 reporting days - 10: setText(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date"), minusDays(1).format(DateTimeFormatter.ofPattern("dd/MM/yyyy")))
+2025-07-28 10:44:29.755 DEBUG 1 response interval and 1 reporting days - 11: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Save"))
+2025-07-28 10:44:29.973 DEBUG 1 response interval and 1 reporting days - 12: verifyElementText(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/div_08 July, 2025"), minusDays(1).format(DateTimeFormatter.ofPattern("dd MMMM, yyyy")))
+2025-07-28 10:44:32.807 DEBUG 1 response interval and 1 reporting days - 13: navigateToUrl("https://bug-nation.cgrfoundation-staging.com/admin/jobs")
+2025-07-28 10:44:33.848 DEBUG 1 response interval and 1 reporting days - 14: click(findTestObject("Object Repository/Page_Background Jobs - CGR Foundation (6)/a_Run"))
+2025-07-28 10:44:36.024 DEBUG 1 response interval and 1 reporting days - 15: navigateToUrl("https://bug-nation.cgrfoundation-staging.com/indicators/110")
+2025-07-28 10:44:36.754 DEBUG 1 response interval and 1 reporting days - 16: refresh()
+2025-07-28 10:44:37.925 DEBUG 1 response interval and 1 reporting days - 17: verifyElementText(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/div_09 July, 2025"), now().format(DateTimeFormatter.ofPattern("dd MMMM, yyyy")))
+2025-07-28 10:44:39.708 DEBUG 1 response interval and 1 reporting days - 18: yesterday = minusDays(1).format(DateTimeFormatter.ofPattern("dd MMMM, yyyy"))
+2025-07-28 10:44:39.712 DEBUG 1 response interval and 1 reporting days - 19: driver = getWebDriver()
+2025-07-28 10:44:39.730 DEBUG 1 response interval and 1 reporting days - 20: xpath = //tr[td[4][text()='$yesterday']]/td[1]/a
+2025-07-28 10:44:39.804 DEBUG 1 response interval and 1 reporting days - 21: element = driver.findElement(By.xpath(xpath))
+2025-07-28 10:44:40.165 DEBUG 1 response interval and 1 reporting days - 22: element.click()
+2025-07-28 10:44:40.888 DEBUG 1 response interval and 1 reporting days - 23: click(findTestObject("Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Edit_btn btn-default"))
+2025-07-28 10:44:41.828 DEBUG 1 response interval and 1 reporting days - 24: setText(findTestObject("Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_Delete"), "Delete")
+2025-07-28 10:44:43.074 DEBUG 1 response interval and 1 reporting days - 25: click(findTestObject("Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Delete"))
+2025-07-28 10:44:43.808 DEBUG 1 response interval and 1 reporting days - 26: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit"))
+2025-07-28 10:44:47.188 DEBUG 1 response interval and 1 reporting days - 27: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date"))
+2025-07-28 10:44:48.058 DEBUG 1 response interval and 1 reporting days - 28: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/span_Dec_glyphicon glyphicon-trash"))
+2025-07-28 10:44:49.155 DEBUG 1 response interval and 1 reporting days - 29: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Save"))
+2025-07-28 10:44:49.407 DEBUG 1 response interval and 1 reporting days - 30: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/span_Santhosh"))
+2025-07-28 10:44:51.771 DEBUG 1 response interval and 1 reporting days - 31: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/a_Log out"))
+2025-07-28 10:44:52.213 DEBUG 1 response interval and 1 reporting days - 32: acceptAlert()
+2025-07-28 10:44:52.298 DEBUG 1 response interval and 1 reporting days - 33: verifyElementText(findTestObject("Object Repository/Page_CGR Foundation/div_Successfully logged out"), "Successfully logged out.")
+2025-07-28 10:44:53.256 DEBUG 1 response interval and 1 reporting days - 34: closeBrowser()
+2025-07-28 10:44:54.094 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days
+2025-07-28 10:44:54.122 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-28 10:44:54.122 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AdminSection
+2025-07-28 10:44:54.284 DEBUG testcase.AdminSection                    - 1: openBrowser("")
+2025-07-28 10:44:54.300 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-07-28 10:44:54.306 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jul 28, 2025 10:44:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 138
+2025-07-28 10:44:55.988 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5561d23be3df6aa1c7c84de08b029ef5
+2025-07-28 10:44:55.988 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.158
+2025-07-28 10:44:55.988 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-07-28 10:44:55.988 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-28 10:44:55.988 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-28 10:44:56.044 DEBUG testcase.AdminSection                    - 2: navigateToUrl("https://bug-nation.cgrfoundation-staging.com/accounts/login")
+2025-07-28 10:44:57.076 DEBUG testcase.AdminSection                    - 3: maximizeWindow()
+2025-07-28 10:44:57.205 DEBUG testcase.AdminSection                    - 4: setText(findTestObject("Object Repository/Page_CGR Foundation/input_Email address_accountemail"), "santhosh.nidamanuri@corpgovrisk.com")
+2025-07-28 10:44:58.073 DEBUG testcase.AdminSection                    - 5: setEncryptedText(findTestObject("Object Repository/Page_CGR Foundation/input_Password_accountpassword"), "g9InqrzvBVyAQwkGaiz+Ig==")
+2025-07-28 10:44:58.491 DEBUG testcase.AdminSection                    - 6: click(findTestObject("Object Repository/Page_CGR Foundation/input_Remember me_commit"))
+2025-07-28 10:45:00.657 DEBUG testcase.AdminSection                    - 7: verifyElementVisible(findTestObject("Object Repository/Page_Dashboard - CGR Foundation (6)/div_Successfully logged in"))
+2025-07-28 10:45:03.575 DEBUG testcase.AdminSection                    - 8: click(findTestObject("Object Repository/Page_Dashboard - CGR Foundation (6)/span_Santhosh"))
+2025-07-28 10:45:03.575 DEBUG testcase.AdminSection                    - 8: click(findTestObject("Object Repository/Page_Dashboard - CGR Foundation (6)/span_Santhosh"))
+2025-07-28 10:45:03.994 DEBUG testcase.AdminSection                    - 9: click(findTestObject("Object Repository/Page_Dashboard - CGR Foundation (6)/a_Admin"))
+2025-07-28 10:45:05.792 DEBUG testcase.AdminSection                    - 10: verifyElementText(findTestObject("Object Repository/Page_Dashboard - CGR Foundation (6)/a_Admin_1"), "Admin")
+2025-07-28 10:45:07.035 DEBUG testcase.AdminSection                    - 11: closeBrowser()
+2025-07-28 10:45:07.733 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/AdminSection
+2025-07-28 10:45:07.747 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-28 10:45:07.747 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TestCloud Sample
+2025-07-28 10:45:08.003 DEBUG testcase.TestCloud Sample                - 1: try
+2025-07-28 10:45:08.003 DEBUG testcase.TestCloud Sample                - 1: openBrowser("")
+2025-07-28 10:45:08.003 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-07-28 10:45:08.003 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jul 28, 2025 10:45:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 138
+2025-07-28 10:45:09.720 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ab2c02550a9a796375bee2a96a77a04e
+2025-07-28 10:45:09.720 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.158
+2025-07-28 10:45:09.720 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-07-28 10:45:09.720 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-28 10:45:09.720 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-28 10:45:09.774 DEBUG testcase.TestCloud Sample                - 2: delay(5)
+2025-07-28 10:45:14.845 DEBUG testcase.TestCloud Sample                - 3: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-07-28 10:45:18.734 DEBUG testcase.TestCloud Sample                - 4: click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"))
+2025-07-28 10:45:19.552 DEBUG testcase.TestCloud Sample                - 5: setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe")
+2025-07-28 10:45:20.396 DEBUG testcase.TestCloud Sample                - 6: doubleClick(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control"))
+2025-07-28 10:45:20.813 DEBUG testcase.TestCloud Sample                - 7: click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control"))
+2025-07-28 10:45:21.125 DEBUG testcase.TestCloud Sample                - 8: setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+2025-07-28 10:45:21.541 DEBUG testcase.TestCloud Sample                - 9: click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+2025-07-28 10:45:22.500 DEBUG testcase.TestCloud Sample                - 10: closeBrowser()
+2025-07-28 10:45:22.874 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TestCloud Sample
+2025-07-28 10:45:22.904 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-07-28 10:45:22.904 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Indicator/Indicator reporting days
+2025-07-28 10:45:22.904 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

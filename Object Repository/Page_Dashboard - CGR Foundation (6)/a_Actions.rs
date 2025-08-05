@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Actions</name>
+   <tag></tag>
+   <elementGuidId>09ceefaa-ac2c-4feb-b13c-538ed06690a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='dashboard-index']/header/nav/div/ul/li/ul/li[6]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(6) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>25ccbab3-a16c-4cc4-a722-b4aec7a7e902</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/actions</value>
+      <webElementGuid>5a1d3826-41c2-4848-aeb4-db3aff9fdacb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Actions
+</value>
+      <webElementGuid>35d235e0-827d-4416-900c-1dd3e8a97d4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard-index&quot;)/header[@class=&quot;header&quot;]/nav[1]/div[@class=&quot;header-left&quot;]/ul[@class=&quot;nav navbar-nav main-nav&quot;]/li[@class=&quot;dropdown dropdown-module-menu open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[6]/a[1]</value>
+      <webElementGuid>a391f0ac-9e3c-4c38-b622-731350e6ee87</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='dashboard-index']/header/nav/div/ul/li/ul/li[6]/a</value>
+      <webElementGuid>94aef4c3-d96d-4c87-9f96-efaf4cccaa68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Actions')]</value>
+      <webElementGuid>87c172a9-87a9-4d3b-9885-97c4d25cf886</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Objectives'])[1]/following::a[1]</value>
+      <webElementGuid>b69d43d3-4c78-4a4d-9978-728303f8b23b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Indicators'])[1]/following::a[2]</value>
+      <webElementGuid>492c643f-3ebc-42f4-877e-6ac3e75c153c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Treatment Plans'])[1]/preceding::a[1]</value>
+      <webElementGuid>8c656c86-7fcb-4b05-9e19-e5887e284a19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Declarations'])[1]/preceding::a[2]</value>
+      <webElementGuid>0084aaed-7303-4e09-a9f0-bfd8243a3b45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Actions']/parent::*</value>
+      <webElementGuid>738c9001-200f-42bc-83d4-8f6196edda53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/actions')]</value>
+      <webElementGuid>6d405495-d50b-4982-897d-ee7d2c0ac1df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/a</value>
+      <webElementGuid>fb7b16e1-4301-4bfc-a6eb-1746c60f8356</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/actions' and (text() = 'Actions
+' or . = 'Actions
+')]</value>
+      <webElementGuid>e8f7a974-22dd-4c00-951a-a17d446129ae</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

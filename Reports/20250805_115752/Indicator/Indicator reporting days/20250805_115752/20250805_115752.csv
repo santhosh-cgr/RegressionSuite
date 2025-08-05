@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Indicator reporting days,TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:57:56,05-08-2025 12:03:13,5m - 16.227s,FAILED
+,,,,,,,
+Test Cases/TestCloud Sample,TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:57:57,05-08-2025 11:59:09,1m - 12.021s,FAILED
+try,TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:57:58,05-08-2025 11:58:51,53.706s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:58:51,05-08-2025 11:58:54,2.682s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:58:54,05-08-2025 11:58:58,4.011s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:58:58,05-08-2025 11:59:00,1.809s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:59:00,05-08-2025 11:59:02,2.578s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:59:02,05-08-2025 11:59:05,2.699s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:59:05,05-08-2025 11:59:07,1.654s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:59:07,05-08-2025 11:59:09,2.412s,FAILED
+,,,,,,,
+Test Cases/AdminSection,TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:59:09,05-08-2025 12:00:28,1m - 18.522s,FAILED
+"openBrowser("""")",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:59:09,05-08-2025 11:59:38,28.279s,PASSED
+"navigateToUrl(""https://bug-nation.cgrfoundation-staging.com/accounts/login"")",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:59:38,05-08-2025 11:59:44,6.037s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:59:44,05-08-2025 11:59:44,0.679s,PASSED
+"setText(findTestObject(""Object Repository/Page_CGR Foundation/input_Email address_accountemail""), ""santhosh.nidamanuri@corpgovrisk.com"")",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:59:44,05-08-2025 11:59:49,4.804s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CGR Foundation/input_Password_accountpassword""), ""g9InqrzvBVyAQwkGaiz+Ig=="")",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:59:49,05-08-2025 11:59:51,1.924s,PASSED
+"click(findTestObject(""Object Repository/Page_CGR Foundation/input_Remember me_commit""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:59:51,05-08-2025 11:59:56,4.863s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Dashboard - CGR Foundation (6)/div_Successfully logged in""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 11:59:56,05-08-2025 12:00:16,20.153s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - CGR Foundation (6)/span_Santhosh""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:00:16,05-08-2025 12:00:18,1.642s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - CGR Foundation (6)/a_Admin""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:00:18,05-08-2025 12:00:23,5.436s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Dashboard - CGR Foundation (6)/a_Admin_1""), ""Admin"")",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:00:23,05-08-2025 12:00:25,2.220s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:00:25,05-08-2025 12:00:28,2.389s,FAILED
+,,,,,,,
+"Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:00:28,05-08-2025 12:03:11,2m - 43.058s,FAILED
+"openBrowser(""https://bug-nation.cgrfoundation-staging.com/accounts/login"")",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:00:28,05-08-2025 12:00:49,21.296s,PASSED
+"navigateToUrl(""https://bug-nation.cgrfoundation-staging.com/accounts/login"")",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:00:49,05-08-2025 12:00:51,1.169s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:00:51,05-08-2025 12:00:51,0.382s,PASSED
+"setText(findTestObject(""Object Repository/Page_CGR Foundation/input_Email address_accountemail""), ""santhosh.nidamanuri@corpgovrisk.com"")",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:00:51,05-08-2025 12:00:54,3.202s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CGR Foundation/input_Password_accountpassword""), ""g9InqrzvBVyAQwkGaiz+Ig=="")",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:00:54,05-08-2025 12:00:56,2.230s,PASSED
+"click(findTestObject(""Object Repository/Page_CGR Foundation/input_Remember me_commit""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:00:56,05-08-2025 12:01:00,3.357s,PASSED
+"navigateToUrl(""https://bug-nation.cgrfoundation-staging.com/indicators/110"")",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:00,05-08-2025 12:01:09,9.599s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:09,05-08-2025 12:01:15,5.648s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:15,05-08-2025 12:01:19,3.670s,PASSED
+"setText(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date""), minusDays(1).format(DateTimeFormatter.ofPattern(""dd/MM/yyyy"")))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:19,05-08-2025 12:01:22,3.420s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/button_Save""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:22,05-08-2025 12:01:23,0.787s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/div_08 July, 2025""), minusDays(1).format(DateTimeFormatter.ofPattern(""dd MMMM, yyyy"")))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:23,05-08-2025 12:01:26,3.084s,PASSED
+"navigateToUrl(""https://bug-nation.cgrfoundation-staging.com/admin/jobs"")",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:26,05-08-2025 12:01:29,2.678s,PASSED
+"click(findTestObject(""Object Repository/Page_Background Jobs - CGR Foundation (6)/a_Run""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:29,05-08-2025 12:01:34,5.758s,PASSED
+"navigateToUrl(""https://bug-nation.cgrfoundation-staging.com/indicators/110"")",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:34,05-08-2025 12:01:36,1.349s,PASSED
+refresh(),TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:36,05-08-2025 12:01:38,1.832s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/div_09 July, 2025""), now().format(DateTimeFormatter.ofPattern(""dd MMMM, yyyy"")))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:38,05-08-2025 12:01:41,3.270s,PASSED
+"yesterday = minusDays(1).format(DateTimeFormatter.ofPattern(""dd MMMM, yyyy""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:41,05-08-2025 12:01:41,0.010s,PASSED
+driver = getWebDriver(),TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:41,05-08-2025 12:01:41,0.017s,PASSED
+xpath = //tr[td[4][text()='$yesterday']]/td[1]/a,TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:41,05-08-2025 12:01:41,0.061s,PASSED
+element = driver.findElement(By.xpath(xpath)),TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:41,05-08-2025 12:01:42,1.108s,PASSED
+element.click(),TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:42,05-08-2025 12:01:43,1.416s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Edit_btn btn-default""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:43,05-08-2025 12:01:45,1.410s,PASSED
+"setText(findTestObject(""Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_Delete""), ""Delete"")",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:45,05-08-2025 12:01:48,3.476s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Delete""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:48,05-08-2025 12:01:54,6.009s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:01:54,05-08-2025 12:02:28,33.249s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:02:28,05-08-2025 12:02:59,31.234s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/span_Dec_glyphicon glyphicon-trash""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:02:59,05-08-2025 12:03:02,2.938s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/button_Save""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:03:02,05-08-2025 12:03:03,0.804s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/span_Santhosh""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:03:03,05-08-2025 12:03:06,3.292s,PASSED
+"click(findTestObject(""Object Repository/Page_Indicators - CGR Foundation (6)/a_Log out""))",TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:03:06,05-08-2025 12:03:08,2.410s,PASSED
+acceptAlert(),TestCloud - Windows - Chrome 134.0.6998.178,,,05-08-2025 12:03:08,05-08-2025 12:03:11,2.607s,FAILED

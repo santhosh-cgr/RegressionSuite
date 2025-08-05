@@ -1,0 +1,18 @@
+Warning: NLS unused message: QTEST in: com.kms.katalon.constants.globalMessages
+Warning: NLS missing message: QTEST_NAME in: com.kms.katalon.constants.globalMessages
+2025-07-28 13:26:41.969 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Indicator/Indicator reporting days
+2025-07-28 13:26:42.107 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Santhosh Nidamanuri
+2025-07-28 13:26:42.110 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = RegressionSuite
+2025-07-28 13:26:42.110 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = santh - Santhosh
+2025-07-28 13:26:42.110 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-07-28 13:26:42.110 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.29.137
+2025-07-28 13:26:42.110 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.3.0
+2025-07-28 13:26:42.740 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-28 13:26:42.740 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/AdminSection
+2025-07-28 13:26:43.166 DEBUG testcase.AdminSection                    - 1: openBrowser("")
+2025-07-28 13:26:43.502 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '134']
+2025-07-28 13:26:43.506 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2025-07-28 13:26:43.524 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2025-07-28 13:26:43.526 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=2293188, accountId=1532955, channel=kse;v=10.2.3, projectId=2256648}, executionMode=queue, usingTunnel=false}']
+2025-07-28 13:26:43.572 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+2025-07-28 13:26:43.861 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds

@@ -37,3 +37,5 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard - CGR Foundation (6
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard - CGR Foundation (6)/a_Admin_1'), 'Admin')
 
+WebUI.closeBrowser()
+
