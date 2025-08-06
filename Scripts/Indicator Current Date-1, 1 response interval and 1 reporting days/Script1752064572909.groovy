@@ -87,6 +87,8 @@ WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (
 
 WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/button_Save'))
 
+WebUI.delay(5)
+
 //WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/span_Santhosh'))
 //
 //WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/a_Log out'))
