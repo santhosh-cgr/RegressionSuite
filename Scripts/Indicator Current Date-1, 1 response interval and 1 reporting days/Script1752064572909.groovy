@@ -59,6 +59,8 @@ WebUI.refresh()
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Indicators - CGR Foundation (6)/div_09 July, 2025'), LocalDate.now().format(
         DateTimeFormatter.ofPattern('dd MMMM, yyyy')))
 
+WebUI.delay(10)
+
 // Get yesterday's date (09 July, 2025)
 def yesterday = LocalDate.now().minusDays(1).format(DateTimeFormatter.ofPattern('dd MMMM, yyyy'))
 
@@ -92,6 +94,5 @@ WebUI.click(findTestObject('Object Repository/Page_Indicators - CGR Foundation (
 //WebUI.acceptAlert()
 //
 //WebUI.verifyElementText(findTestObject('Object Repository/Page_CGR Foundation/div_Successfully logged out'), 'Successfully logged out.')
-
 WebUI.closeBrowser()
 
