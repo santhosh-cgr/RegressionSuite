@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Indicator Test Suite" time="154.493" tests="1" failures="0" errors="0">
+   <testsuite name="Indicator Test Suite" tests="1" failures="0" errors="0" time="154.493" skipped="0" timestamp="2025-08-06T05:23:02.823Z" hostname="santh - Santhosh" id="Test Suites/Indicator/Indicator Test Suite">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\santh\\git\\RegressionSuite\\Reports\\20250806_105237\\Indicator\\Indicator Test Suite\\20250806_105237"/>
+         <property name="logFiles" value="C:\\Users\\santh\\git\\RegressionSuite\\Reports\\20250806_105237\\Indicator\\Indicator Test Suite\\20250806_105237\\console0.log, C:\\Users\\santh\\git\\RegressionSuite\\Reports\\20250806_105237\\Indicator\\Indicator Test Suite\\20250806_105237\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="santh - Santhosh"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/wd/hub"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="10.2.3.0"/>
+         <property name="userFullName" value="Santhosh Nidamanuri"/>
+         <property name="sessionId" value="e5305e3c-b6e7-4647-bf55-cf54c357b3c8"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;138.0.7204.50 (0d4712a3edf9bf23eeeef02d799ac84541244fd2-refs/branch-heads/7204@{#1815})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir2376_1175689996&quot;&#xa;  },&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;138.0.7204.50&quot;,&#xa;  &quot;katalon:caps&quot;: {&#xa;    &quot;executionId&quot;: &quot;0858e82f-3bd1-49d5-8008-b805f6612a0c&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;e5305e3c-b6e7-4647-bf55-cf54c357b3c8&quot;&#xa;  },&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;executionId&quot;: &quot;0858e82f-3bd1-49d5-8008-b805f6612a0c&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;e5305e3c-b6e7-4647-bf55-cf54c357b3c8&quot;,&#xa;    &quot;runFromTestCloud&quot;: true&#xa;  },&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="katalon:caps" value="{&#xa;  &quot;executionId&quot;: &quot;0858e82f-3bd1-49d5-8008-b805f6612a0c&quot;,&#xa;  &quot;executionSessionId&quot;: &quot;e5305e3c-b6e7-4647-bf55-cf54c357b3c8&quot;&#xa;}"/>
+         <property name="browser" value="Chrome 138.0.7204.50"/>
+         <property name="hostAddress" value="192.168.29.137"/>
+         <property name="projectName" value="RegressionSuite"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+      </properties>
+      <testcase name="Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days" time="153.633" classname="Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days" status="PASSED">
+         <system-out><![CDATA[06-08-2025T10:53:03 - [TEST_CASE][PASSED] - Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days: Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days
+
+06-08-2025T10:53:04 - [TEST_STEP][PASSED] - openBrowser("https://bug-nation.cgrfoundation-staging.com/accounts/login"): Browser is opened with url: 'https://bug-nation.cgrfoundation-staging.com/accounts/login'
+
+06-08-2025T10:53:04 - [MESSAGE][INFO] - User set preference: ['browserVersion', '138']
+
+06-08-2025T10:53:04 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+06-08-2025T10:53:04 - [MESSAGE][INFO] - User set preference: ['platformName', 'windows']
+
+06-08-2025T10:53:04 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=2293188, accountId=1532955, channel=kse;v=10.2.3, projectId=2256648}, executionMode=queue, usingTunnel=false}']
+
+06-08-2025T10:53:04 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+
+06-08-2025T10:53:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-08-2025T10:53:16 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+06-08-2025T10:53:16 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+06-08-2025T10:53:16 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+06-08-2025T10:53:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://bug-nation.cgrfoundation-staging.com/accounts/login'
+
+06-08-2025T10:53:18 - [TEST_STEP][PASSED] - navigateToUrl("https://bug-nation.cgrfoundation-staging.com/accounts/login"): Navigate to 'https://bug-nation.cgrfoundation-staging.com/accounts/login' successfully
+
+06-08-2025T10:53:19 - [MESSAGE][PASSED] - Navigate to 'https://bug-nation.cgrfoundation-staging.com/accounts/login' successfully
+
+06-08-2025T10:53:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-08-2025T10:53:20 - [MESSAGE][PASSED] - Current window maximized
+
+06-08-2025T10:53:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CGR Foundation/input_Email address_accountemail"), "santhosh.nidamanuri@corpgovrisk.com"): Text 'santhosh.nidamanuri@corpgovrisk.com' is set on object 'Object Repository/Page_CGR Foundation/input_Email address_accountemail'
+
+06-08-2025T10:53:23 - [MESSAGE][PASSED] - Text 'santhosh.nidamanuri@corpgovrisk.com' is set on object 'Object Repository/Page_CGR Foundation/input_Email address_accountemail'
+
+06-08-2025T10:53:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CGR Foundation/input_Password_accountpassword"), "g9InqrzvBVyAQwkGaiz+Ig=="): Text ****** has been set on object 'Object Repository/Page_CGR Foundation/input_Password_accountpassword'
+
+06-08-2025T10:53:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CGR Foundation/input_Password_accountpassword'
+
+06-08-2025T10:53:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CGR Foundation/input_Remember me_commit")): Object: 'Object Repository/Page_CGR Foundation/input_Remember me_commit' is clicked on
+
+06-08-2025T10:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CGR Foundation/input_Remember me_commit' is clicked on
+
+06-08-2025T10:53:30 - [TEST_STEP][PASSED] - navigateToUrl("https://bug-nation.cgrfoundation-staging.com/indicators/110"): Navigate to 'https://bug-nation.cgrfoundation-staging.com/indicators/110' successfully
+
+06-08-2025T10:53:32 - [MESSAGE][PASSED] - Navigate to 'https://bug-nation.cgrfoundation-staging.com/indicators/110' successfully
+
+06-08-2025T10:53:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit' is clicked on
+
+06-08-2025T10:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit' is clicked on
+
+06-08-2025T10:54:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date' is clicked on
+
+06-08-2025T10:54:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date' is clicked on
+
+06-08-2025T10:54:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date"), minusDays(1).format(DateTimeFormatter.ofPattern("dd/MM/yyyy"))): Text '05/08/2025' is set on object 'Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date'
+
+06-08-2025T10:54:06 - [MESSAGE][PASSED] - Text '05/08/2025' is set on object 'Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date'
+
+06-08-2025T10:54:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Save")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Save' is clicked on
+
+06-08-2025T10:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Save' is clicked on
+
+06-08-2025T10:54:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/div_08 July, 2025"), minusDays(1).format(DateTimeFormatter.ofPattern("dd MMMM, yyyy"))): Actual text and expected text of test object 'Object Repository/Page_Indicators - CGR Foundation (6)/div_08 July, 2025' are matched.
+
+06-08-2025T10:54:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Indicators - CGR Foundation (6)/div_08 July, 2025' are matched.
+
+06-08-2025T10:54:11 - [TEST_STEP][PASSED] - navigateToUrl("https://bug-nation.cgrfoundation-staging.com/admin/jobs"): Navigate to 'https://bug-nation.cgrfoundation-staging.com/admin/jobs' successfully
+
+06-08-2025T10:54:14 - [MESSAGE][PASSED] - Navigate to 'https://bug-nation.cgrfoundation-staging.com/admin/jobs' successfully
+
+06-08-2025T10:54:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Background Jobs - CGR Foundation (6)/a_Run")): Object: 'Object Repository/Page_Background Jobs - CGR Foundation (6)/a_Run' is clicked on
+
+06-08-2025T10:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Background Jobs - CGR Foundation (6)/a_Run' is clicked on
+
+06-08-2025T10:54:28 - [TEST_STEP][PASSED] - navigateToUrl("https://bug-nation.cgrfoundation-staging.com/indicators/110"): Navigate to 'https://bug-nation.cgrfoundation-staging.com/indicators/110' successfully
+
+06-08-2025T10:54:30 - [MESSAGE][PASSED] - Navigate to 'https://bug-nation.cgrfoundation-staging.com/indicators/110' successfully
+
+06-08-2025T10:54:30 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+06-08-2025T10:54:32 - [MESSAGE][PASSED] - Refresh successfully
+
+06-08-2025T10:54:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/div_09 July, 2025"), now().format(DateTimeFormatter.ofPattern("dd MMMM, yyyy"))): Actual text and expected text of test object 'Object Repository/Page_Indicators - CGR Foundation (6)/div_09 July, 2025' are matched.
+
+06-08-2025T10:54:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Indicators - CGR Foundation (6)/div_09 July, 2025' are matched.
+
+06-08-2025T10:54:35 - [TEST_STEP][PASSED] - yesterday = minusDays(1).format(DateTimeFormatter.ofPattern("dd MMMM, yyyy")): null
+
+06-08-2025T10:54:35 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+06-08-2025T10:54:35 - [TEST_STEP][PASSED] - xpath = //tr[td[4][text()='$yesterday']]/td[1]/a: null
+
+06-08-2025T10:54:35 - [TEST_STEP][PASSED] - element = driver.findElement(By.xpath(xpath)): null
+
+06-08-2025T10:54:37 - [TEST_STEP][PASSED] - element.click(): null
+
+06-08-2025T10:54:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Edit_btn btn-default")): Object: 'Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Edit_btn btn-default' is clicked on
+
+06-08-2025T10:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Edit_btn btn-default' is clicked on
+
+06-08-2025T10:54:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_Delete"), "Delete"): Text 'Delete' is set on object 'Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_Delete'
+
+06-08-2025T10:54:47 - [MESSAGE][PASSED] - Text 'Delete' is set on object 'Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_Delete'
+
+06-08-2025T10:54:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Delete")): Object: 'Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Delete' is clicked on
+
+06-08-2025T10:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Delete' is clicked on
+
+06-08-2025T10:54:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit' is clicked on
+
+06-08-2025T10:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit' is clicked on
+
+06-08-2025T10:55:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date' is clicked on
+
+06-08-2025T10:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date' is clicked on
+
+06-08-2025T10:55:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/span_Dec_glyphicon glyphicon-trash")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/span_Dec_glyphicon glyphicon-trash' is clicked on
+
+06-08-2025T10:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/span_Dec_glyphicon glyphicon-trash' is clicked on
+
+06-08-2025T10:55:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Save")): Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Save' is clicked on
+
+06-08-2025T10:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Indicators - CGR Foundation (6)/button_Save' is clicked on
+
+06-08-2025T10:55:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-08-2025T10:55:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-08-2025T10:53:02 - [TEST_SUITE][PASSED] - Indicator Test Suite: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

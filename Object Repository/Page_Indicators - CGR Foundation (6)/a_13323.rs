@@ -25,7 +25,7 @@
          <value>internal:role=link[name=&quot;13323&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>01d2a135-f0a5-4b27-9e48-003f2b254ad7</webElementGuid>
+      <webElementGuid>e610607b-255c-424a-b55e-6ac19ed551e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/indicator_responses/13323</value>
-      <webElementGuid>5b57c522-1c48-433b-8f1f-483bce994ea4</webElementGuid>
+      <webElementGuid>5a14839a-e06a-4e92-bd86-5af8f3b76f2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>13323</value>
-      <webElementGuid>989c8d3d-78cc-4d4a-a4f8-5c431489ce03</webElementGuid>
+      <webElementGuid>92411f62-3b02-4425-983a-7d412c499bff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;js-IndicatorResponseSubpanel&quot;)/div[@class=&quot;panel panel-default panel-table sub expanded&quot;]/div[@class=&quot;panel-body&quot;]/table[@class=&quot;table table-sortable&quot;]/tbody[1]/tr[1]/td[1]/a[1]</value>
-      <webElementGuid>413bb6f7-8638-4ca2-8d89-0b1f11b04937</webElementGuid>
+      <webElementGuid>a29b7f03-a1ac-46c7-8753-45998e9894ca</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='js-IndicatorResponseSubpanel']/div/div[2]/table/tbody/tr/td/a</value>
-      <webElementGuid>00741e99-a7c6-4ce9-9019-c0cad470f390</webElementGuid>
+      <webElementGuid>45a93428-fcb6-4514-b7f7-c2358bd862fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'13323')]</value>
-      <webElementGuid>7845079e-bdf2-4bd9-8e40-b855b8720019</webElementGuid>
+      <webElementGuid>fe51cc09-88ef-4293-bdd2-b600ff97d1c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Response'])[2]/following::a[1]</value>
-      <webElementGuid>4a9c32b8-b387-4e4a-ad3c-9ce75fd5a168</webElementGuid>
+      <webElementGuid>21cef62a-946a-47a1-934c-94d3f01c6087</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No Outcome'])[1]/preceding::a[1]</value>
-      <webElementGuid>843886fd-8c9b-4a6a-9a64-c919dfebf303</webElementGuid>
+      <webElementGuid>ebace960-94bb-4deb-8ab3-54b966534b32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No Value'])[1]/preceding::a[1]</value>
-      <webElementGuid>a7096097-4783-4486-a6d6-5968f949fab4</webElementGuid>
+      <webElementGuid>163fcc13-8ba3-4bc9-acc4-22e1b8038009</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='13323']/parent::*</value>
-      <webElementGuid>ee0a4fa3-931b-4233-b2d8-6a3ae46f27a5</webElementGuid>
+      <webElementGuid>cbfe2a23-635b-4d67-996f-d7e6b4108780</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/indicator_responses/13323')]</value>
-      <webElementGuid>f95ca211-31e4-49d5-9c56-ddbda50ea916</webElementGuid>
+      <webElementGuid>6b5bd66a-a5af-4792-b262-1c95e550952d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/a</value>
-      <webElementGuid>d5d9bd2d-3f7f-4128-b9db-73f6c399c628</webElementGuid>
+      <webElementGuid>865ff14e-68f2-4be9-bfde-33531587dfb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/indicator_responses/13323' and (text() = '13323' or . = '13323')]</value>
-      <webElementGuid>c5843bf8-79fb-4235-82be-4a2bd8f5ca34</webElementGuid>
+      <webElementGuid>f4b73732-6eca-4adf-b17f-f38342f1aa83</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,132 @@
+Warning: NLS unused message: QTEST in: com.kms.katalon.constants.globalMessages
+Warning: NLS missing message: QTEST_NAME in: com.kms.katalon.constants.globalMessages
+2025-08-06 10:53:02.705 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Indicator/Indicator Test Suite
+2025-08-06 10:53:02.870 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Santhosh Nidamanuri
+2025-08-06 10:53:02.871 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = RegressionSuite
+2025-08-06 10:53:02.872 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = santh - Santhosh
+2025-08-06 10:53:02.873 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-08-06 10:53:02.874 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.29.137
+2025-08-06 10:53:02.875 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.3.0
+2025-08-06 10:53:03.683 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-06 10:53:03.683 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days
+2025-08-06 10:53:04.273 DEBUG 1 response interval and 1 reporting days - 1: openBrowser("https://bug-nation.cgrfoundation-staging.com/accounts/login")
+2025-08-06 10:53:04.616 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '138']
+2025-08-06 10:53:04.618 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2025-08-06 10:53:04.630 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2025-08-06 10:53:04.630 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=2293188, accountId=1532955, channel=kse;v=10.2.3, projectId=2256648}, executionMode=queue, usingTunnel=false}']
+2025-08-06 10:53:04.659 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+2025-08-06 10:53:05.245 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-08-06 10:53:16.022 ERROR .s.f.SeleniumCreateSessionResponseFilter - Exception while trying to back-fill sessionId
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2572)
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2598)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:712)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2509)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:673)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4992)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4898)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3848)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3816)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionResponseFilter.lambda$0(SeleniumCreateSessionResponseFilter.java:43)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionPayloadFilter.lambda$0(SeleniumCreateSessionPayloadFilter.java:73)
+	at com.kms.katalon.selenium.filter.SeleniumBasicAuthorizationFilter.lambda$0(SeleniumBasicAuthorizationFilter.java:58)
+	at com.kms.katalon.selenium.filter.SeleniumResponseContentEncodingDecompressionFilter.lambda$0(SeleniumResponseContentEncodingDecompressionFilter.java:44)
+	at com.kms.katalon.selenium.filter.SeleniumAcceptEncodingFilter.lambda$0(SeleniumAcceptEncodingFilter.java:25)
+	at com.kms.katalon.selenium.filter.SeleniumProxyBasicAuthorizationFilter.lambda$0(SeleniumProxyBasicAuthorizationFilter.java:49)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:384)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-08-06 10:53:16.149 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-08-06 10:53:16.150 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-08-06 10:53:16.150 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-08-06 10:53:17.298 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/wd/hub
+2025-08-06 10:53:17.299 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = Windows
+2025-08-06 10:53:17.312 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "networkConnectionEnabled": false,
+  "chrome": {
+    "chromedriverVersion": "138.0.7204.50 (0d4712a3edf9bf23eeeef02d799ac84541244fd2-refs/branch-heads/7204@{#1815})",
+    "userDataDir": "C:\\Program Files (x86)\\scoped_dir2376_1175689996"
+  },
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:9225"
+  },
+  "webauthn:extension:credBlob": true,
+  "webauthn:extension:prf": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "138.0.7204.50",
+  "katalon:caps": {
+    "executionId": "0858e82f-3bd1-49d5-8008-b805f6612a0c",
+    "executionSessionId": "e5305e3c-b6e7-4647-bf55-cf54c357b3c8"
+  },
+  "fedcm:accounts": true,
+  "browserName": "chrome",
+  "platformName": "WINDOWS",
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "katalon:options": {
+    "executionId": "0858e82f-3bd1-49d5-8008-b805f6612a0c",
+    "executionSessionId": "e5305e3c-b6e7-4647-bf55-cf54c357b3c8",
+    "runFromTestCloud": true
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2025-08-06 10:53:17.316 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "0858e82f-3bd1-49d5-8008-b805f6612a0c",
+  "executionSessionId": "e5305e3c-b6e7-4647-bf55-cf54c357b3c8"
+}
+2025-08-06 10:53:17.318 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e5305e3c-b6e7-4647-bf55-cf54c357b3c8
+2025-08-06 10:53:17.320 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.50
+2025-08-06 10:53:17.321 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-06 10:53:17.321 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-06 10:53:17.338 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-06 10:53:18.939 DEBUG 1 response interval and 1 reporting days - 2: navigateToUrl("https://bug-nation.cgrfoundation-staging.com/accounts/login")
+2025-08-06 10:53:19.946 DEBUG 1 response interval and 1 reporting days - 3: maximizeWindow()
+2025-08-06 10:53:20.306 DEBUG 1 response interval and 1 reporting days - 4: setText(findTestObject("Object Repository/Page_CGR Foundation/input_Email address_accountemail"), "santhosh.nidamanuri@corpgovrisk.com")
+2025-08-06 10:53:23.466 DEBUG 1 response interval and 1 reporting days - 5: setEncryptedText(findTestObject("Object Repository/Page_CGR Foundation/input_Password_accountpassword"), "g9InqrzvBVyAQwkGaiz+Ig==")
+2025-08-06 10:53:25.199 DEBUG 1 response interval and 1 reporting days - 6: click(findTestObject("Object Repository/Page_CGR Foundation/input_Remember me_commit"))
+2025-08-06 10:53:30.223 DEBUG 1 response interval and 1 reporting days - 7: navigateToUrl("https://bug-nation.cgrfoundation-staging.com/indicators/110")
+2025-08-06 10:53:32.347 DEBUG 1 response interval and 1 reporting days - 8: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit"))
+2025-08-06 10:54:03.538 DEBUG 1 response interval and 1 reporting days - 9: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date"))
+2025-08-06 10:54:04.942 DEBUG 1 response interval and 1 reporting days - 10: setText(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date"), minusDays(1).format(DateTimeFormatter.ofPattern("dd/MM/yyyy")))
+2025-08-06 10:54:06.518 DEBUG 1 response interval and 1 reporting days - 11: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Save"))
+2025-08-06 10:54:07.372 DEBUG 1 response interval and 1 reporting days - 12: verifyElementText(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/div_08 July, 2025"), minusDays(1).format(DateTimeFormatter.ofPattern("dd MMMM, yyyy")))
+2025-08-06 10:54:11.832 DEBUG 1 response interval and 1 reporting days - 13: navigateToUrl("https://bug-nation.cgrfoundation-staging.com/admin/jobs")
+2025-08-06 10:54:14.712 DEBUG 1 response interval and 1 reporting days - 14: click(findTestObject("Object Repository/Page_Background Jobs - CGR Foundation (6)/a_Run"))
+2025-08-06 10:54:28.908 DEBUG 1 response interval and 1 reporting days - 15: navigateToUrl("https://bug-nation.cgrfoundation-staging.com/indicators/110")
+2025-08-06 10:54:30.305 DEBUG 1 response interval and 1 reporting days - 16: refresh()
+2025-08-06 10:54:32.398 DEBUG 1 response interval and 1 reporting days - 17: verifyElementText(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/div_09 July, 2025"), now().format(DateTimeFormatter.ofPattern("dd MMMM, yyyy")))
+2025-08-06 10:54:35.864 DEBUG 1 response interval and 1 reporting days - 18: yesterday = minusDays(1).format(DateTimeFormatter.ofPattern("dd MMMM, yyyy"))
+2025-08-06 10:54:35.873 DEBUG 1 response interval and 1 reporting days - 19: driver = getWebDriver()
+2025-08-06 10:54:35.892 DEBUG 1 response interval and 1 reporting days - 20: xpath = //tr[td[4][text()='$yesterday']]/td[1]/a
+2025-08-06 10:54:35.937 DEBUG 1 response interval and 1 reporting days - 21: element = driver.findElement(By.xpath(xpath))
+2025-08-06 10:54:37.045 DEBUG 1 response interval and 1 reporting days - 22: element.click()
+2025-08-06 10:54:38.280 DEBUG 1 response interval and 1 reporting days - 23: click(findTestObject("Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Edit_btn btn-default"))
+2025-08-06 10:54:39.657 DEBUG 1 response interval and 1 reporting days - 24: setText(findTestObject("Object Repository/Page_Indicator Responses - CGR Foundation (6)/textarea_Delete"), "Delete")
+2025-08-06 10:54:47.720 DEBUG 1 response interval and 1 reporting days - 25: click(findTestObject("Object Repository/Page_Indicator Responses - CGR Foundation (6)/button_Delete"))
+2025-08-06 10:54:49.161 DEBUG 1 response interval and 1 reporting days - 26: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Edit"))
+2025-08-06 10:55:03.685 DEBUG 1 response interval and 1 reporting days - 27: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/input_Next Report Date_due_date"))
+2025-08-06 10:55:04.838 DEBUG 1 response interval and 1 reporting days - 28: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/span_Dec_glyphicon glyphicon-trash"))
+2025-08-06 10:55:35.937 DEBUG 1 response interval and 1 reporting days - 29: click(findTestObject("Object Repository/Page_Indicators - CGR Foundation (6)/button_Save"))
+2025-08-06 10:55:36.812 DEBUG 1 response interval and 1 reporting days - 30: closeBrowser()
+2025-08-06 10:55:37.316 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Indicator Current Date-1, 1 response interval and 1 reporting days
+2025-08-06 10:55:37.379 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-08-06 10:55:37.379 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Indicator/Indicator Test Suite
+2025-08-06 10:55:37.379 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
